@@ -33,19 +33,36 @@ public class URI1029 {
             multiply(A, A);
             n >>= 1;
         }
-        return M[0][1];
+        return M[0][0];
     }
 
 
-    static long [] memo = new long[41];
+    static long [] memo = new long[42];
 
     private static void init() {
-        for(int i=1; i<40; i++) {
+        for(int i=1; i<41; i++) {
             memo[i] = exp(i);
         }
     }
 
-    public static void main(String[] args) {
+    private static long[][] inti2() {
+        /**
+         * Tabela dinamica
+         * [i][0] numero de fibonacci
+         * [i][1] chamadas recursivas
+         * */
+        long [][] temp = new long[42][2];
+        temp[1][0] = 1;     // fib
+        temp[1][1] = 0;     // cha
+        //temp[2][1] = 2;     // chamadas recusrivas
+        for(int i=2; i<41; i++) {
+            temp[i][0] = exp(i);
+            temp[i][1] = temp[i-1][1] + temp[i-2][1] + 2;
+        }
+        return temp;
+    }
+
+    private static void solver() {
         init();
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         try {
@@ -54,11 +71,21 @@ public class URI1029 {
             while(n>0) {
                 n--;
                 int val = Integer.parseInt(bufferedReader.readLine());
-                pw.printf("fib(%d) = %d calls = %d\n", val, memo[val] * 2 - 2, memo[val]);
+                s1(pw, val);
             }
-        } catch (Exception e) {
-
-        }
+        } catch (Exception e) {}
     }
 
+    private static void s1(PrintWriter pw, int val) {
+        pw.printf("fib(%d) = %d calls = %d\n", val, memo[val] * 2 - 2, memo[val-1]);
+    }
+
+    private static void s2() {
+
+    }
+
+    public static void main(String[] args) {
+        inti2();
+        solver();
+    }
 }
