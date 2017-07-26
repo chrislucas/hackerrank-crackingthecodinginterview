@@ -115,3 +115,5 @@ fib(38): 63245986
 fib(39): 102334155 calls: 204668309
 fib(39): 102334155
 fib(39): 102334155
+
+https://stackoverflow.com/questions/4935957/fibonacci-numbers-with-an-one-liner-in-python-3/37509291#37509291

@@ -3,6 +3,8 @@
  * https://www.hackerrank.com/challenges/ctci-fibonacci-numbers
  */
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.Stack;
 
 import static  java.lang.Math.log10;
@@ -62,7 +64,7 @@ public class RecFibo {
             multiply(A, A);
             n >>= 1;
         }
-        return M[0][0];
+        return M[0][1];
     }
 
     public static long exp(int n, long [][] A) {
@@ -96,8 +98,28 @@ public class RecFibo {
         }
     }
 
-    public static void main(String[] args) {
-        test1();
+    static long [] memo;
+
+    public static void init() {
+        memo = new long [41];
+        memo[0] = 0;
+        memo[1] = 1;
+        for(int i=2; i<41; i++) {
+            memo[i] = exp2(i);
+        }
+        return;
     }
 
+    public static void solver() {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        init();
+        try {
+            int val = Integer.parseInt(bufferedReader.readLine());
+            System.out.println(memo[val]);
+        } catch (Exception e) {}
+    }
+
+    public static void main(String[] args) {
+       solver();
+    }
 }

@@ -80,4 +80,5 @@ public class ConvertBases {
                 , new BigInteger(String.valueOf(16))));
     }
 
+
 }
