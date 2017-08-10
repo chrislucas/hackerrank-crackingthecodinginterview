@@ -40,8 +40,9 @@ public class BFS {
     public static int [] shortestReach(int start) {
         int distances [] = new int[list.size()];
         boolean visiteds [] = new boolean[list.size()];
-        for(int i=0; i<list.size(); i++)
-            distances[i] = Integer.MAX_VALUE;
+        for(int i=0; i<list.size(); i++) {
+            distances[i] = i == start ? 0 :Integer.MAX_VALUE;
+        }
         Queue<Integer> queue = new LinkedList<>();
         queue.add(start);
         while(!queue.isEmpty()) {
@@ -50,10 +51,11 @@ public class BFS {
             ArrayList<Edge> edges = list.get(nodeStart);
             for(Edge edge : edges) {
                 if(!visiteds[edge.to]) {
-                    queue.add(edge.to);
-                    int cost = edge.weight + 6;
-                    if(distances[edge.to] > cost)
+                    int cost = distances[nodeStart] + edge.weight;
+                    if(distances[edge.to] > cost) {
                         distances[edge.to] = cost;
+                        queue.add(edge.to);
+                    }
                 }
             }
         }
@@ -89,7 +91,7 @@ public class BFS {
                 int start = Integer.parseInt(bufferedReader.readLine());
                 int distances  [] = shortestReach(start);
 
-                for(int i=1; i<=n; i++) {
+                for(int i=start; i<=n; i++) {
                     if(i == start)
                         continue;
                     System.out.printf("%d ", distances[i]);
