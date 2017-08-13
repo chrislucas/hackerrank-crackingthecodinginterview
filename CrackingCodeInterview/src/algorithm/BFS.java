@@ -15,6 +15,7 @@ import java.util.StringTokenizer;
  */
 public class BFS {
 
+    public static final int INFITITY = Integer.MAX_VALUE;
 
     public static class Edge {
         int from, to, weight;
@@ -41,7 +42,7 @@ public class BFS {
         int distances [] = new int[list.size()];
         boolean visiteds [] = new boolean[list.size()];
         for(int i=0; i<list.size(); i++) {
-            distances[i] = i == start ? 0 :Integer.MAX_VALUE;
+            distances[i] = i == start ? 0 : INFITITY;
         }
         Queue<Integer> queue = new LinkedList<>();
         queue.add(start);
@@ -72,14 +73,14 @@ public class BFS {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         try {
             int queries = Integer.parseInt(bufferedReader.readLine());
-            StringTokenizer tk  = new StringTokenizer(bufferedReader.readLine(), " ");
-            int n = Integer.parseInt(tk.nextToken());
-            int m = Integer.parseInt(tk.nextToken());
             // consultas
             for(;queries>0;queries--) {
+                StringTokenizer tk  = new StringTokenizer(bufferedReader.readLine(), " ");
+                int nodes = Integer.parseInt(tk.nextToken());
+                int edges = Integer.parseInt(tk.nextToken());
                 // arestas
-                init(n+1);
-                for(int idx=m; idx>0;idx--) {
+                init(nodes+1);
+                for(int idx=edges; idx>0;idx--) {
                     tk  = new StringTokenizer(bufferedReader.readLine(), " ");
                     int from = Integer.parseInt(tk.nextToken());
                     int to = Integer.parseInt(tk.nextToken());
@@ -90,8 +91,7 @@ public class BFS {
                 }
                 int start = Integer.parseInt(bufferedReader.readLine());
                 int distances  [] = shortestReach(start);
-
-                for(int i=start; i<=n; i++) {
+                for(int i=1; i<=nodes; i++) {
                     if(i == start)
                         continue;
                     System.out.printf("%d ", distances[i]);
