@@ -3,18 +3,23 @@ package algorithm;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.StringTokenizer;
+import java.util.*;
 
 /**
  * Created by C_Luc on 07/08/2017.
  *
  * https://www.hackerrank.com/challenges/ctci-bfs-shortest-reach
+ *
+ * Override equal e hashcode
+ * https://stackoverflow.com/questions/27581/what-issues-should-be-considered-when-overriding-equals-and-hashcode-in-java
+ * https://stackoverflow.com/questions/12787947/overriding-object-equals-vs-overloading-it
+ * Whenever a.equals(b), then a.hashCode() must be same as b.hashCode().
+ * do contrario havera uma quebra de contrato com o metodo equals
+ * DONE
  */
 public class BFS {
 
+    public static final int INFITITY = Integer.MAX_VALUE;
 
     public static class Edge {
         int from, to, weight;
@@ -23,14 +28,30 @@ public class BFS {
             this.to = to;
             this.weight = weight;
         }
+
+        @Override
+        public String toString() {
+            return String.format("from %d to %d", from, to);
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            Edge that = (Edge) o;
+            return this.from == that.from && this.to == that.to;
+        }
+
+        @Override
+        public int hashCode() {
+            return from + to;
+        }
     }
 
-    private static ArrayList<ArrayList<Edge>> list;
+    private static List<Set<Edge>> list;
 
     private static void init(int nodes) {
         list = new ArrayList<>();
         for(int i=0; i<nodes; i++)
-            list.add(new ArrayList<>());
+            list.add(new LinkedHashSet<Edge>());
     }
 
     public static void addEdge(Edge edge) {
@@ -39,29 +60,27 @@ public class BFS {
 
     public static int [] shortestReach(int start) {
         int distances [] = new int[list.size()];
-        boolean visiteds [] = new boolean[list.size()];
+        //boolean v [] = new boolean[list.size()];
         for(int i=0; i<list.size(); i++) {
-            distances[i] = i == start ? 0 :Integer.MAX_VALUE;
+            distances[i] = i == start ? 0 : INFITITY;
         }
         Queue<Integer> queue = new LinkedList<>();
         queue.add(start);
         while(!queue.isEmpty()) {
             int nodeStart = queue.poll();
-            visiteds[nodeStart] = true;
-            ArrayList<Edge> edges = list.get(nodeStart);
+            //if(!v[nodeStart]) { v[nodeStart] = true; }
+            Set<Edge> edges = list.get(nodeStart);
             for(Edge edge : edges) {
-                if(!visiteds[edge.to]) {
-                    int cost = distances[nodeStart] + edge.weight;
-                    if(distances[edge.to] > cost) {
-                        distances[edge.to] = cost;
-                        queue.add(edge.to);
-                    }
+                int cost = distances[nodeStart] + edge.weight;
+                if(distances[edge.to] > cost) {
+                    distances[edge.to] = cost;
+                    queue.offer(edge.to);
                 }
             }
         }
 
-        for( int i=1; i<visiteds.length; i++) {
-            if(!visiteds[i])
+        for( int i=1; i<distances.length; i++) {
+            if(distances[i] == INFITITY)
                 distances[i] = -1;
         }
 
@@ -72,14 +91,14 @@ public class BFS {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         try {
             int queries = Integer.parseInt(bufferedReader.readLine());
-            StringTokenizer tk  = new StringTokenizer(bufferedReader.readLine(), " ");
-            int n = Integer.parseInt(tk.nextToken());
-            int m = Integer.parseInt(tk.nextToken());
             // consultas
             for(;queries>0;queries--) {
+                StringTokenizer tk  = new StringTokenizer(bufferedReader.readLine(), " ");
+                int nodes = Integer.parseInt(tk.nextToken());
+                int edges = Integer.parseInt(tk.nextToken());
                 // arestas
-                init(n+1);
-                for(int idx=m; idx>0;idx--) {
+                init(nodes+1);
+                for(int idx=edges; idx>0;idx--) {
                     tk  = new StringTokenizer(bufferedReader.readLine(), " ");
                     int from = Integer.parseInt(tk.nextToken());
                     int to = Integer.parseInt(tk.nextToken());
@@ -90,17 +109,14 @@ public class BFS {
                 }
                 int start = Integer.parseInt(bufferedReader.readLine());
                 int distances  [] = shortestReach(start);
-
-                for(int i=start; i<=n; i++) {
+                for(int i=1; i<=nodes; i++) {
                     if(i == start)
                         continue;
                     System.out.printf("%d ", distances[i]);
                 }
-                System.out.println("\n");
+                System.out.println("");
             }
-        } catch (IOException e) {
-
-        }
+        } catch (IOException e) {}
     }
 
     public static void main(String[] args) {
