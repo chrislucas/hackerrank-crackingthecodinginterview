@@ -11,26 +11,29 @@ public class ExtGDC {
      * x e y sao os coeficientes de Bézout's identity
      * */
 
-    public static void  extended(long a, long b, long [] res) {
+    public static void  extRec(long a, long b, long [] res) {
         if( a % b == 0) {
+            res[0] = b;
+            res[1] = 0;
+            res[2] = 1;
             return;
         }
-        extended(b, a%b, res);
-        res[0] = b;
+        extRec(b, a%b, res);
+        long u = res[1], v = res[2];
+        res[1] = v;
+        res[2] = u - (a/b) * v;
     }
 
     public static void test1() {
         long [] res = new long[3];
-        long a = 126, b = 31;
-        res[0] = b;
-        res[1] = 0;
-        res[2] = 1;
-        extended(a, b, res);
+        extRec(126, 31, res);
+        System.out.printf("%d %d %d\n", res[0], res[1], res[2]);
+        extRec(408, 126, res);
         System.out.printf("%d %d %d\n", res[0], res[1], res[2]);
     }
 
     public static void main(String[] args) {
-
+        test1();
     }
 
 }
