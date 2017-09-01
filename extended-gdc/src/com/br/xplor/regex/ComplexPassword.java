@@ -10,7 +10,11 @@ public class ComplexPassword {
      * Start of String and End of String Anchors
      * http://www.regular-expressions.info/anchors.html
      * */
-
+    public static void lookheadER() {
+        String regex = "\\d+(?=\\.\\w+$)";
+        System.out.println("99".matches(regex));
+        System.out.println("aa000.txt".matches(regex));
+    }
 
     /*
     * Lookahead and Lookbehind Zero-Length Assertions
@@ -19,14 +23,15 @@ public class ComplexPassword {
     * */
 
 
+
+
+
     public static boolean verify (String pwd) {
         String regex = "^(?=.*[0-9])$";
         return pwd.matches(regex);
     }
 
-
-    public static void main(String[] args) {
-
+    public static void verifyArrayPwds() {
         String pwds [] = {
             "teste123456"
             ,"123456"
@@ -35,6 +40,12 @@ public class ComplexPassword {
         for(String pwd : pwds) {
             System.out.println(verify(pwd));
         }
+    }
+
+
+    public static void main(String[] args) {
+
+        lookheadER();
 
     }
 
