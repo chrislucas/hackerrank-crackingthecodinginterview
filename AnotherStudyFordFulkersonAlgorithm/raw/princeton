@@ -1,0 +1,13 @@
+Probema Fluxo-maximo
+http://algs4.cs.princeton.edu/64maxflow/
+
+https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/07NetworkFlowI.pdf
+
+Modelo de aresta
+http://algs4.cs.princeton.edu/64maxflow/FlowEdge.java.html
+
+Modelo de grafo
+http://algs4.cs.princeton.edu/64maxflow/FlowNetwork.java.html
+
+Algoritmo ford-fulkerson
+http://algs4.cs.princeton.edu/64maxflow/FordFulkerson.java.html
