@@ -21,15 +21,20 @@ public class FordFulkersonAlgorithm {
         }
 
         public int residualCapacity(int vertice) {
-            return (vertice == from) ? flow : cap - flow; // (vertice == from) -> aresta de ida
+            return (vertice == from) ? flow : cap - flow; // (vertice == from) -> vertice inicial
         }
 
         public void addResidualFlowTo(int vertex, int delta) {
-            flow +=  vertex == from ? delta : - delta;
+            flow +=  vertex == from ? -delta : delta;
         }
 
         public int other(int vertice) {
-            return (vertice == from) ? to : from; // (vertice == from) -> aresta de ida
+            return (vertice == from) ? to : from; // (vertice == from) -> aresta de inicial
+        }
+
+        @Override
+        public String toString() {
+            return String.format("From %d To %d Cap %d Flow %d", from, to, cap, flow);
         }
     }
 
@@ -61,20 +66,18 @@ public class FordFulkersonAlgorithm {
      * nas arestas do grafo
      * */
     public static boolean hasAugmentingPath(int s, int t) {
-        edgesTo = new Edge[V];
-        seen[s] = timer++;
+        edgesTo = new Edge[V];  // arestas adicionadas durante a BFS entre o no S e T
+        seen[s] = ++timer;
         Queue<Integer> queue = new LinkedList<>();
         queue.add(s);
         while (!queue.isEmpty() && seen[t] < timer) {
             int u = queue.poll();
             for(Edge edge : ref.get(u)) {
                 int v = edge.other(u);
-                if(edge.residualCapacity(v) > 0) {
-                    if(seen[v] < timer) {
-                        edgesTo[v] = edge;
-                        seen[v] = timer;
-                        queue.add(v);
-                    }
+                if(seen[v] < timer && edge.residualCapacity(v) > 0) {
+                    edgesTo[v] = edge;
+                    seen[v] = timer;
+                    queue.add(v);
                 }
             }
         }
@@ -83,12 +86,9 @@ public class FordFulkersonAlgorithm {
         return seen[t] == timer;
     }
 
-
-
     public static void main(String[] args) {
         System.out.println(test1(0, 5));
     }
-
 
     private static int test1(int s, int t) {
         // http://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/
@@ -111,9 +111,11 @@ public class FordFulkersonAlgorithm {
                 INF = Math.min(INF, edgesTo[v].residualCapacity(v));
             }
             for(int v = t; v!=s; v = edgesTo[v].other(v)) {
+                // atualiza o fluxo das arestas adicionadas durante a BFS, para o FLUXO maximo enquanto der para realizar BFS's
                 edgesTo[v].addResidualFlowTo(v, INF);
             }
             maxFlow += INF;
+            timer++;
         }
         return maxFlow;
     }
