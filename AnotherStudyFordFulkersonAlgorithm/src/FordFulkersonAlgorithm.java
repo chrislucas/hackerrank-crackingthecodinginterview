@@ -106,15 +106,15 @@ public class FordFulkersonAlgorithm {
         int maxFlow = 0;
         while (hasAugmentingPath(s, t)) {
             // atualizar as aresta residuais
-            int INF = Integer.MAX_VALUE;
+            int currMax = Integer.MAX_VALUE;
             for(int v = t; v!=s; v = edgesTo[v].other(v)){
-                INF = Math.min(INF, edgesTo[v].residualCapacity(v));
+                currMax = Math.min(currMax, edgesTo[v].residualCapacity(v));
             }
             for(int v = t; v!=s; v = edgesTo[v].other(v)) {
                 // atualiza o fluxo das arestas adicionadas durante a BFS, para o FLUXO maximo enquanto der para realizar BFS's
-                edgesTo[v].addResidualFlowTo(v, INF);
+                edgesTo[v].addResidualFlowTo(v, currMax);
             }
-            maxFlow += INF;
+            maxFlow += currMax;
             timer++;
         }
         return maxFlow;
