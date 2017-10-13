@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d084e97-ecad-4952-8fe2-a573e9043f6f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FFDFS.java" afterPath="$PROJECT_DIR$/src/FFDFS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FordFulkersonDFS.java" afterPath="$PROJECT_DIR$/src/FordFulkersonDFS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raw/Bipartite Matching" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raw/links" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithm/maxflow/impl/BipartiteMatching.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithm/maxflow/problems/JMA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithm/maxflow/problems/URI/URI1362.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AnotherStudyFordFulkersonAlgorithm/FFDFS$Edge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AnotherStudyFordFulkersonAlgorithm/FFDFS.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AnotherStudyFordFulkersonAlgorithm/FordFulkersonAlgorithm$Edge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AnotherStudyFordFulkersonAlgorithm/FordFulkersonAlgorithm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AnotherStudyFordFulkersonAlgorithm/FordFulkersonDFS$Edge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AnotherStudyFordFulkersonAlgorithm/FordFulkersonDFS.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FFDFS.java" afterPath="$PROJECT_DIR$/src/algorithm/maxflow/impl/FFDFS.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FordFulkersonAlgorithm.java" afterPath="$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonAlgorithm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FordFulkersonDFS.java" afterPath="$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonDFS.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,48 +36,43 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FordFulkersonAlgorithm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FordFulkersonAlgorithm.java">
+      <file leaf-file-name="links" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raw/links">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FordFulkersonDFS.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FordFulkersonDFS.java">
+      <file leaf-file-name="Bipartite Matching" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raw/Bipartite Matching">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#2833#2834#0" expanded="true" />
-                <element signature="e#2876#2877#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="52" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FFDFS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FFDFS.java">
+      <file leaf-file-name="BipartiteMatching.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/BipartiteMatching.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="110" selection-end-column="24" />
+            <state relative-caret-position="245">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#2256#2257#0" expanded="true" />
-                <element signature="e#2299#2300#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#952#953#0" expanded="true" />
+                <element signature="e#1024#1025#0" expanded="true" />
+                <element signature="e#1387#1388#0" expanded="true" />
+                <element signature="e#1420#1421#0" expanded="true" />
+                <element signature="e#2835#2836#0" expanded="true" />
+                <element signature="e#2857#2858#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,8 +102,16 @@
         <option value="$PROJECT_DIR$/raw/princeton" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/FordFulkersonAlgorithm.java" />
-        <option value="$PROJECT_DIR$/src/FFDFS.java" />
         <option value="$PROJECT_DIR$/src/FordFulkersonDFS.java" />
+        <option value="$PROJECT_DIR$/src/FordFulkersonList.java" />
+        <option value="$PROJECT_DIR$/src/FFDFS.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonList.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/maxflow/impl/JMA.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/maxflow/problems/JMA.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/maxflow/problems/URI/URI1362.java" />
+        <option value="$PROJECT_DIR$/raw/Bipartite Matching" />
+        <option value="$PROJECT_DIR$/raw/links" />
+        <option value="$PROJECT_DIR$/src/algorithm/maxflow/impl/BipartiteMatching.java" />
       </list>
     </option>
   </component>
@@ -102,9 +119,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="517" />
-    <option name="y" value="14" />
-    <option name="width" value="1045" />
+    <option name="x" value="288" />
+    <option name="y" value="11" />
+    <option name="width" value="1467" />
     <option name="height" value="832" />
   </component>
   <component name="ProjectView">
@@ -149,6 +166,76 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maxflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnotherStudyFordFulkersonAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnotherStudyFordFulkersonAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maxflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="URI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnotherStudyFordFulkersonAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnotherStudyFordFulkersonAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maxflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnotherStudyFordFulkersonAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnotherStudyFordFulkersonAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -172,6 +259,11 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="Ignore Files Support" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\repositories\github\hackerrank-crackingthecodinginterview\AnotherStudyFordFulkersonAlgorithm\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -443,7 +535,7 @@
     </configuration>
     <configuration default="false" name="Unnamed" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="FordFulkersonDFS" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.maxflow.impl.BipartiteMatching" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -479,8 +571,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="517" y="14" width="1045" height="832" extended-state="0" />
-    <editor active="true" />
+    <frame x="288" y="11" width="1467" height="832" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -492,18 +584,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297162" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32751092" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.286754" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13728675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17360622" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958263" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16381909" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33239236" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -520,110 +612,124 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FordFulkersonAlgorithm.java</url>
-          <line>25</line>
+          <url>file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonAlgorithm.java</url>
+          <line>27</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FordFulkersonAlgorithm.java</url>
-          <line>29</line>
+          <url>file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonAlgorithm.java</url>
+          <line>31</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FordFulkersonAlgorithm.java</url>
-          <line>116</line>
+          <url>file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonAlgorithm.java</url>
+          <line>118</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FordFulkersonAlgorithm.java</url>
-          <line>120</line>
+          <url>file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonAlgorithm.java</url>
+          <line>122</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FordFulkersonDFS.java</url>
-          <line>62</line>
+          <url>file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonDFS.java</url>
+          <line>64</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FordFulkersonAlgorithm.java</url>
-          <line>34</line>
+          <url>file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonAlgorithm.java</url>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FordFulkersonAlgorithm.java</url>
-          <line>77</line>
+          <url>file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonAlgorithm.java</url>
+          <line>79</line>
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FFDFS.java</url>
-          <line>59</line>
+          <url>file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FFDFS.java</url>
+          <line>61</line>
           <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FFDFS.java</url>
-          <line>56</line>
+          <url>file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FFDFS.java</url>
+          <line>58</line>
           <properties />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FordFulkersonDFS.java</url>
-          <line>78</line>
+          <url>file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonDFS.java</url>
+          <line>80</line>
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FordFulkersonDFS.java</url>
-          <line>148</line>
+          <url>file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonDFS.java</url>
+          <line>150</line>
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FordFulkersonDFS.java</url>
-          <line>72</line>
+          <url>file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonDFS.java</url>
+          <line>74</line>
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FFDFS.java</url>
-          <line>72</line>
+          <url>file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FFDFS.java</url>
+          <line>74</line>
           <properties />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FFDFS.java</url>
-          <line>118</line>
+          <url>file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FFDFS.java</url>
+          <line>120</line>
           <properties />
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FFDFS.java</url>
-          <line>66</line>
+          <url>file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FFDFS.java</url>
+          <line>68</line>
           <properties />
           <option name="timeStamp" value="57" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/maxflow/problems/JMA.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/maxflow/impl/BipartiteMatching.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/maxflow/impl/BipartiteMatching.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="58" />
+      <option name="time" value="61" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="path" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FordFulkersonAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
@@ -633,16 +739,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FordFulkersonDFS.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonDFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1400">
           <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#2833#2834#0" expanded="true" />
-            <element signature="e#2876#2877#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#2866#2867#0" expanded="true" />
+            <element signature="e#2909#2910#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -671,7 +777,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FordFulkersonAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1920">
           <caret line="106" column="41" lean-forward="false" selection-start-line="106" selection-start-column="41" selection-end-line="106" selection-end-column="41" />
@@ -681,16 +787,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FordFulkersonDFS.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonDFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1938">
           <caret line="106" column="41" lean-forward="false" selection-start-line="106" selection-start-column="41" selection-end-line="106" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#2833#2834#0" expanded="true" />
-            <element signature="e#2876#2877#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#2866#2867#0" expanded="true" />
+            <element signature="e#2909#2910#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -711,7 +817,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FordFulkersonAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2120">
           <caret line="106" column="41" lean-forward="false" selection-start-line="106" selection-start-column="41" selection-end-line="106" selection-end-column="41" />
@@ -721,16 +827,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FordFulkersonDFS.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonDFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1064">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#2833#2834#0" expanded="true" />
-            <element signature="e#2876#2877#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#2866#2867#0" expanded="true" />
+            <element signature="e#2909#2910#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -743,7 +849,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FordFulkersonAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1920">
           <caret line="106" column="41" lean-forward="false" selection-start-line="106" selection-start-column="41" selection-end-line="106" selection-end-column="41" />
@@ -753,7 +859,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FordFulkersonAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="44" selection-end-column="33" />
@@ -771,7 +877,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FordFulkersonAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2040">
           <caret line="106" column="41" lean-forward="false" selection-start-line="106" selection-start-column="41" selection-end-line="106" selection-end-column="41" />
@@ -781,16 +887,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FordFulkersonDFS.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonDFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#2833#2834#0" expanded="true" />
-            <element signature="e#2876#2877#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#2866#2867#0" expanded="true" />
+            <element signature="e#2909#2910#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -803,7 +909,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FordFulkersonAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="44" selection-end-column="33" />
@@ -813,16 +919,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FordFulkersonDFS.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonDFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#2833#2834#0" expanded="true" />
-            <element signature="e#2876#2877#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#2866#2867#0" expanded="true" />
+            <element signature="e#2909#2910#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -836,8 +942,7 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/LinkedList.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Queue.java" />
-    <entry file="file://$PROJECT_DIR$/src/FordFulkersonAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-241">
           <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
@@ -871,43 +976,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FordFulkersonAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonDFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="135">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#2866#2867#0" expanded="true" />
+            <element signature="e#2909#2910#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FFDFS.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/problems/JMA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/FFDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#2283#2284#0" expanded="true" />
+            <element signature="e#2326#2327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/problems/URI/URI1362.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="110" selection-end-column="24" />
+          <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
           <folding>
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#2256#2257#0" expanded="true" />
-            <element signature="e#2299#2300#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#2320#2321#0" expanded="true" />
+            <element signature="e#2341#2342#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FordFulkersonDFS.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+        <state relative-caret-position="144">
+          <caret line="198" column="6" lean-forward="false" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raw/links">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raw/Bipartite Matching">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/BipartiteMatching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#2833#2834#0" expanded="true" />
-            <element signature="e#2876#2877#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1387#1388#0" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="true" />
+            <element signature="e#2835#2836#0" expanded="true" />
+            <element signature="e#2857#2858#0" expanded="true" />
           </folding>
         </state>
       </provider>

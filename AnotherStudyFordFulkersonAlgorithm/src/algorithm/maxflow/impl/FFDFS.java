@@ -1,3 +1,5 @@
+package algorithm.maxflow.impl;
+
 import java.util.ArrayList;
 
 /**
@@ -31,7 +33,7 @@ public class FFDFS {
     }
 
     private static ArrayList<ArrayList<Integer>> ref;
-    private static Edge [] path, edges;
+    private static Edge [] edges;
     private static int E, V;
     private static int [] seen;
     private static int timer = 1, counter = 0;
