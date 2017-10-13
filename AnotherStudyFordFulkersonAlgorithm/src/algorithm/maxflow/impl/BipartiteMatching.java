@@ -16,6 +16,11 @@ import java.util.Queue;
  * Esse problema pode ser pensado como o problema de coloracao de vertices de um grafo
  * usando 2 cores. 1 aresta nao pode ter 2 vertices coloridos pela mesma cor.
  *
+ * Por exemplo:
+ * Se uma aresta S conecta os vertices 2-3(R-B), uma aresta T conecta os vertices
+ * 3-4(B-R) e uma aresta U conecta os vertices 4-2(R-R) o grafo nao é bipartido
+ * pois temos 2 vertices com a mesma coloracao
+ *
  */
 public class BipartiteMatching {
 
@@ -97,7 +102,20 @@ public class BipartiteMatching {
         System.out.println(isBipartite());
     }
 
+    public static void run2() {
+        init(5);
+        add(0, 1);
+        add(1, 0);
+        add(2, 3);
+        add(2, 1);
+        add(3, 2);
+        //add(4, 2);
+        add(4, 3);
+        //add(3, 1);
+        System.out.println(isBipartite());
+    }
+
     public static void main(String[] args) {
-        run1();
+        run2();
     }
 }

@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d084e97-ecad-4952-8fe2-a573e9043f6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raw/Bipartite Matching" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raw/links" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithm/maxflow/impl/BipartiteMatching.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithm/maxflow/problems/JMA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithm/maxflow/problems/URI/URI1362.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AnotherStudyFordFulkersonAlgorithm/FFDFS$Edge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AnotherStudyFordFulkersonAlgorithm/FFDFS.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AnotherStudyFordFulkersonAlgorithm/FordFulkersonAlgorithm$Edge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AnotherStudyFordFulkersonAlgorithm/FordFulkersonAlgorithm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AnotherStudyFordFulkersonAlgorithm/FordFulkersonDFS$Edge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AnotherStudyFordFulkersonAlgorithm/FordFulkersonDFS.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AnotherStudyFordFulkersonAlgorithm/algorithm/maxflow/impl/BipartiteMatching.class" afterPath="$PROJECT_DIR$/out/production/AnotherStudyFordFulkersonAlgorithm/algorithm/maxflow/impl/BipartiteMatching.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FFDFS.java" afterPath="$PROJECT_DIR$/src/algorithm/maxflow/impl/FFDFS.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FordFulkersonAlgorithm.java" afterPath="$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonAlgorithm.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FordFulkersonDFS.java" afterPath="$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonDFS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algorithm/maxflow/impl/BipartiteMatching.java" afterPath="$PROJECT_DIR$/src/algorithm/maxflow/impl/BipartiteMatching.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algorithm/maxflow/problems/URI/URI1362.java" afterPath="$PROJECT_DIR$/src/algorithm/maxflow/problems/URI/URI1362.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,23 +44,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BipartiteMatching.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BipartiteMatching.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/BipartiteMatching.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="381">
+              <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
-                <element signature="e#906#907#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
                 <element signature="e#1024#1025#0" expanded="true" />
-                <element signature="e#1387#1388#0" expanded="true" />
-                <element signature="e#1420#1421#0" expanded="true" />
-                <element signature="e#2835#2836#0" expanded="true" />
-                <element signature="e#2857#2858#0" expanded="true" />
+                <element signature="e#1066#1067#0" expanded="true" />
+                <element signature="e#1098#1099#0" expanded="true" />
+                <element signature="e#1134#1135#0" expanded="true" />
+                <element signature="e#1180#1181#0" expanded="true" />
+                <element signature="e#1252#1253#0" expanded="true" />
+                <element signature="e#1615#1616#0" expanded="true" />
+                <element signature="e#1648#1649#0" expanded="true" />
+                <element signature="e#3318#3319#0" expanded="true" />
+                <element signature="e#3340#3341#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="URI1362.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/problems/URI/URI1362.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,10 +108,10 @@
         <option value="$PROJECT_DIR$/src/algorithm/maxflow/impl/FordFulkersonList.java" />
         <option value="$PROJECT_DIR$/src/algorithm/maxflow/impl/JMA.java" />
         <option value="$PROJECT_DIR$/src/algorithm/maxflow/problems/JMA.java" />
-        <option value="$PROJECT_DIR$/src/algorithm/maxflow/problems/URI/URI1362.java" />
         <option value="$PROJECT_DIR$/raw/Bipartite Matching" />
         <option value="$PROJECT_DIR$/raw/links" />
         <option value="$PROJECT_DIR$/src/algorithm/maxflow/impl/BipartiteMatching.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/maxflow/problems/URI/URI1362.java" />
       </list>
     </option>
   </component>
@@ -572,7 +572,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="288" y="11" width="1467" height="832" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -595,7 +595,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33239236" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1474947" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -709,13 +709,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/maxflow/impl/BipartiteMatching.java</url>
-          <line>77</line>
+          <line>82</line>
           <properties />
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/maxflow/impl/BipartiteMatching.java</url>
-          <line>54</line>
+          <line>59</line>
           <properties />
           <option name="timeStamp" value="60" />
         </line-breakpoint>
@@ -1035,20 +1035,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/problems/URI/URI1362.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="e#2320#2321#0" expanded="true" />
-            <element signature="e#2341#2342#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1075,20 +1061,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/impl/BipartiteMatching.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="381">
+          <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
             <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1387#1388#0" expanded="true" />
-            <element signature="e#1420#1421#0" expanded="true" />
-            <element signature="e#2835#2836#0" expanded="true" />
-            <element signature="e#2857#2858#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1615#1616#0" expanded="true" />
+            <element signature="e#1648#1649#0" expanded="true" />
+            <element signature="e#3318#3319#0" expanded="true" />
+            <element signature="e#3340#3341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/maxflow/problems/URI/URI1362.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

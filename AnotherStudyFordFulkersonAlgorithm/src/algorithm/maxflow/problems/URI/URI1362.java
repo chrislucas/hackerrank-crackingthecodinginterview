@@ -12,6 +12,10 @@ import java.util.StringTokenizer;
  * Created by r028367 on 13/10/2017.
  * https://www.urionlinejudge.com.br/judge/pt/problems/view/1362
  * https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1986
+ *
+ * Estudar algoritmo de bipartite matching
+ * https://www.urionlinejudge.com.br/judge/pt/search?for=problems&q=bipartido
+ * https://pt.wikipedia.org/wiki/Grafo_bipartido
  */
 public class URI1362 {
 
