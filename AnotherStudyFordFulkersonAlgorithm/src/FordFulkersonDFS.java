@@ -22,26 +22,28 @@ public class FordFulkersonDFS {
             this(from, to, cap, 0);
         }
 
-        public int residualCapacity(int vertice) {
-            return (vertice == from) ? flow : cap - flow; // (vertice == from) -> vertice inicial
+        public int getResidualCapacity(int vertice) {
+            // (vertice == from) -> vertice de inicial
+            return (vertice == from) ? flow : cap - flow;
         }
 
-        public void addResidualFlowTo(int vertex, int delta) {
-            flow +=  vertex == from ? -delta : delta;
+        public void addResidualFlow(int vertex, int delta) {
+            flow +=  vertex == from ? delta : -delta;
         }
 
-        public int other(int vertice) {
+        public int nextNode(int vertice) {
             return (vertice == from) ? to : from; // (vertice == from) -> aresta de inicial
         }
 
         @Override
         public String toString() {
-            return String.format("From %d To %d Cap %d Flow %d", from, to, cap, flow);
+            return String.format("From %d To %d Cap %d Flow %d"
+                    , from, to, cap, flow);
         }
     }
 
     private static ArrayList<ArrayList<Integer>> ref;
-    private static Edge[] edgesTo;
+    private static Edge[] edges;
     private static int E = 0, V;
     private static int [] seen;
     private static int timer = 1;
@@ -53,23 +55,23 @@ public class FordFulkersonDFS {
             ref.add(new ArrayList<>());
         }
         seen = new int[v];
-        edgesTo = new Edge[e];
+        edges = new Edge[e];
     }
 
-
+    // s e u sao indices os indices dos nos do grafo
     public static int dfs(int s, int t, int f) {
         if(s == t)
             return f;
         seen[s] = timer;
-        for(int i : ref.get(s)) {
-            int u = edgesTo[i].other(i);
-            int diff = edgesTo[i].residualCapacity(u);
+        for(int idx : ref.get(s)) {
+            int u = edges[idx].nextNode(edges[idx].from);
+            int diff = edges[idx].getResidualCapacity(u);
             if(seen[u] < timer && diff > 0) {
                 seen[u] = timer;
                 int flow = dfs(u, t, min(f, diff));
                 if(flow > 0) {
-                    int o = edgesTo[i].other(i);
-                    edgesTo[o].addResidualFlowTo(o, flow);
+                    edges[idx].addResidualFlow(edges[idx].from, flow);
+                    edges[idx^1].addResidualFlow(edges[idx^1].to, flow);
                     return flow;
                 }
             }
@@ -79,10 +81,10 @@ public class FordFulkersonDFS {
 
     public static void addEdge(int from, int to, int cap) {
         Edge ab = new Edge(from, to, cap, 0);
-        edgesTo[E] = ab;
+        edges[E] = ab;
         ref.get(from).add(E++);
         Edge ba = new Edge(to, from, 0,0);
-        edgesTo[E] = ba;
+        edges[E] = ba;
         ref.get(to).add(E++);
     }
 
@@ -95,11 +97,11 @@ public class FordFulkersonDFS {
      * */
 
     public static void main(String[] args) {
-        init(6, 20);
-        test1(0, 5);
+        test1();
     }
 
-    public static int test1(int s, int t) {
+    public static int test1() {
+        init(6, 20);
         // http://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/
         addEdge(0,1, 16);
         addEdge(0,2, 13);
@@ -111,6 +113,19 @@ public class FordFulkersonDFS {
         addEdge(3,5, 20);
         addEdge(4,3, 7);
         addEdge(4,5, 4);
+        return run(0,5);
+    }
+
+    // https://www.youtube.com/watch?v=xC2tYIZvmgc
+    public static int test2() {
+        return run(0,5);
+    }
+
+    //https://www.youtube.com/watch?v=WMUZVtfUj2I&t=4s
+    public static int test3() {
+        return run(0,5);
+    }
+    public static int run(int s, int t) {
         int rs      = -1;
         int inf     = Integer.MAX_VALUE;
         int flow    = 0;
