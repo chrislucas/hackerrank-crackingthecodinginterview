@@ -4,6 +4,7 @@ import java.util.Queue;
 
 /**
  * Created by r028367 on 25/09/2017.
+ * Edmonds–Karp algorithm
  */
 public class FordFulkersonAlgorithm {
 
@@ -21,7 +22,8 @@ public class FordFulkersonAlgorithm {
         }
 
         public int residualCapacity(int vertice) {
-            return (vertice == from) ? flow : cap - flow; // (vertice == from) -> vertice inicial
+            // (vertice == from) -> vertice inicial
+            return (vertice == from) ? flow : cap - flow;
         }
 
         public void addResidualFlowTo(int vertex, int delta) {
@@ -29,12 +31,14 @@ public class FordFulkersonAlgorithm {
         }
 
         public int other(int vertice) {
-            return (vertice == from) ? to : from; // (vertice == from) -> aresta de inicial
+            // (vertice == from) -> aresta de inicial
+            return (vertice == from) ? to : from;
         }
 
         @Override
         public String toString() {
-            return String.format("From %d To %d Cap %d Flow %d", from, to, cap, flow);
+            return String.format("From %d To %d Cap %d Flow %d"
+                    , from, to, cap, flow);
         }
     }
 
