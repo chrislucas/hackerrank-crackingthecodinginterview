@@ -55,7 +55,7 @@ public class FordFulkersonDFS {
             ref.add(new ArrayList<>());
         }
         seen = new int[v];
-        edges = new Edge[e];
+        edges = new Edge[e * 2];
     }
 
     // s e u sao indices os indices dos nos do grafo
@@ -94,7 +94,7 @@ public class FordFulkersonDFS {
      *
      * */
     public static void main(String[] args) {
-        System.out.println(test1());
+        System.out.println(test2());
     }
 
     public static int test1() {
@@ -115,7 +115,22 @@ public class FordFulkersonDFS {
 
     // https://www.youtube.com/watch?v=xC2tYIZvmgc
     public static int test2() {
-        return run(0,5);
+        init(8, 13);
+        // https://www.youtube.com/watch?v=xC2tYIZvmgc
+        addEdge(0,1,13);
+        addEdge(0,2,10);
+        addEdge(0,3,10);
+        addEdge(1,4,24);
+        addEdge(2,1,5);
+        addEdge(2,3,15);
+        addEdge(2,6,7);
+        addEdge(3,6,15);
+        addEdge(4,5,1);
+        addEdge(4,7,9);
+        addEdge(5,6,6);
+        addEdge(5,7,13);
+        addEdge(6,7,16);
+        return run(0,7);
     }
 
     //https://www.youtube.com/watch?v=WMUZVtfUj2I&t=4s

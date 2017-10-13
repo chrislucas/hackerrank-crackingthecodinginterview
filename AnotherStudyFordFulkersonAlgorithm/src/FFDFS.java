@@ -94,6 +94,7 @@ public class FFDFS {
 
     public static int test2() {
         init(8, 13);
+        // https://www.youtube.com/watch?v=xC2tYIZvmgc
         addEdge(0,1,13);
         addEdge(0,2,10);
         addEdge(0,3,10);
