@@ -58,10 +58,8 @@ public class URI1362 {
 
     public static void add(int from, int to, int cap) {
         Edge ab = new Edge(from, to, cap, 0);
-
         Edge ba = new Edge(from, to, cap, 0);
     }
-
 
     public static void run() {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
