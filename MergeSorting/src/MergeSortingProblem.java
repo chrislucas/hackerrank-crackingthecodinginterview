@@ -6,7 +6,7 @@ public class MergeSortingProblem {
 
 
     public static void main(String[] args) {
-        
+
     }
 
 }
