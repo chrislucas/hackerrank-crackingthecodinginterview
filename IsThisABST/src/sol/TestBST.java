@@ -21,28 +21,62 @@ public class TestBST {
     }
 
     /**
-     * Ideia
+     * Ideia semi-furada
      * */
     public static boolean checkBST(Node root) {
+        boolean test = true;
+        if(root == null) {
+            return test;
+        }
+        int rootData = root.data;
+        if(root.left != null) {
+            int ldata = root.left.data;
+            test = checkBST(root.left) && (ldata < rootData);
+        }
+        if(root.right != null) {
+            int rdata = root.right.data;
+            test = checkBST(root.right) && (rdata > rootData);
+        }
+        return test;
+    }
+
+    public static boolean checkBSTV2(Node root) {
+        //int [] minmax = { Integer.MAX_VALUE, Integer.MIN_VALUE};
+        //getMinMax(root, minmax);
+        return isBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
+    }
+
+    public static boolean isBST(Node root, int min, int max) {
         if(root == null) {
             return true;
         }
-        int dc = root.data;
-        if(root.left != null) {
-            int dl = root.left.data;
-            return checkBST(root.left) &&  (dl < dc);
-        }
-        else if(root.right != null) {
-            int dr = root.right.data;
-            return checkBST(root.right) && (dr > dc);
-        }
-        return true;
+        Node left = root;
+        if(root.data >= max || root.data <= min)
+            return false;
+        boolean a = isBST(root.left, min, root.data);
+        boolean b = isBST(root.right, root.data, max);
+        return a & b;
     }
 
-    private static boolean preorderChecker(Node root) {
-        if(root != null) {
-            preorder(root.left);
-            preorder(root.right);
+    public static void getMinMax(Node root, int data []) {
+        if(root!=null) {
+            if(root.left != null && data[0] > root.left.data)
+                data[0] = root.left.data;
+            getMinMax(root.left, data);
+            if(root.right != null && data[1] < root.right.data)
+                data[1] = root.right.data;
+            getMinMax(root.right, data);
+        }
+    }
+
+    private static boolean inOrderChecker(Node current, Node ancestor) {
+        if(current != null) {
+            if(!inOrderChecker(current.left, current))
+                return false;
+            if(ancestor != null && current.data <= ancestor.data) {
+                return false;
+            }
+            return inOrderChecker(current.right, current);
         }
         return true;
     }
@@ -108,36 +142,20 @@ public class TestBST {
     }
 
     public static void test2() {
-        root            = new Node(8);
-        root.left       = new Node(10);
-        root.right      = new Node(6);
-        root.left.left  = new Node(11);
-        root.right.right = new Node(3);
-    }
-
-    public static void test3() {
-        root            = new Node(4);
-        root.left       = new Node(2);
-        root.right      = new Node(5);
-        root.left.left  = new Node(3);
-        root.right.right = new Node(1);
-    }
-
-    public static void test4() {
-        root             = new Node(4);
-        root.left        = new Node(2);
-        root.right       = new Node(7);
-        root.left.left   = new Node(1);
-        root.left.right = new Node(3);
-        root.left.left.left= new Node(0);
-        root.right.left = new Node(6);
-        root.right.right = new Node(8);
+        root                = new Node(3);
+        root.left           = new Node(2);
+        root.right          = new Node(6);
+        root.left.left      = new Node(1);
+        root.left.right     = new Node(4);
+        root.right.left     = new Node(5);
+        root.right.right    = new Node(7);
     }
 
 
     public static void main(String[] args) {
-        test4();
-        System.out.println(checkBST(root));
+        test();
+        System.out.println(checkBSTV2(root));
+        System.out.println(inOrderChecker(root, null));
     }
 
 
