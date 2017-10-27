@@ -1,9 +1,12 @@
+package algorithm.maxflow.impl;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
 /**
  * Created by r028367 on 25/09/2017.
+ * Edmonds–Karp algorithm
  */
 public class FordFulkersonAlgorithm {
 
