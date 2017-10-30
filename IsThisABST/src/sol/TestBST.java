@@ -21,7 +21,7 @@ public class TestBST {
     }
 
     /**
-     * Ideia semi-furada
+     * Ideia furada
      * */
     public static boolean checkBST(Node root) {
         boolean test = true;
@@ -40,17 +40,19 @@ public class TestBST {
         return test;
     }
 
-    public static boolean checkBSTV2(Node root) {
-        //int [] minmax = { Integer.MAX_VALUE, Integer.MIN_VALUE};
-        //getMinMax(root, minmax);
+    private static boolean checkBSTV1(Node root) {
+        int [] minmax = { Integer.MAX_VALUE, Integer.MIN_VALUE};
+        getMinMax(root, minmax);
+        return isBST(root, minmax[0], minmax[1]);
+    }
+
+    private static boolean checkBSTV2(Node root) {
         return isBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
     }
 
-    public static boolean isBST(Node root, int min, int max) {
-        if(root == null) {
+    private static boolean isBST(Node root, int min, int max) {
+        if(root == null)
             return true;
-        }
-        Node left = root;
         if(root.data >= max || root.data <= min)
             return false;
         boolean a = isBST(root.left, min, root.data);
@@ -58,7 +60,17 @@ public class TestBST {
         return a & b;
     }
 
-    public static void getMinMax(Node root, int data []) {
+    private static boolean checkBSTV3(Node root) {
+        if(root == null)
+            return  true;
+
+        boolean a = checkBSTV3(root.left);
+        boolean b = checkBSTV3(root.right);
+
+        return a & b;
+    }
+
+    private static void getMinMax(Node root, int data []) {
         if(root!=null) {
             if(root.left != null && data[0] > root.left.data)
                 data[0] = root.left.data;
@@ -80,7 +92,6 @@ public class TestBST {
         }
         return true;
     }
-
 
     public static Node root;
 
