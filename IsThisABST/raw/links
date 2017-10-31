@@ -1,2 +1,16 @@
 https://en.wikipedia.org/wiki/Binary_search_tree
 http://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
+
+
+Sorted array to BST
+http://www.geeksforgeeks.org/sorted-array-to-balanced-bst/
+https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/
+
+Construct Tree from given Inorder and Preorder traversals
+http://www.geeksforgeeks.org/construct-tree-from-given-inorder-and-preorder-traversal/
+https://www.programcreek.com/2014/06/leetcode-construct-binary-tree-from-preorder-and-inorder-traversal-java/
+http://www.geeksforgeeks.org/full-and-complete-binary-tree-from-given-preorder-and-postorder-traversals/
+https://www.careercup.com/question?id=14108676
+
+create binary tree from inorder and preorder
+https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/
