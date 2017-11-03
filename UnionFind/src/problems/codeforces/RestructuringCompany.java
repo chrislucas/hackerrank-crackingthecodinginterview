@@ -3,6 +3,8 @@ package problems.codeforces;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
 /**
@@ -60,6 +62,7 @@ public class RestructuringCompany {
 
     public static void main(String[] args) {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        PrintWriter printWriter = new PrintWriter(new OutputStreamWriter(System.out), true);
         try {
             StringTokenizer tk = new StringTokenizer(bufferedReader.readLine(), " ");
             int n = Integer.parseInt(tk.nextToken());
@@ -83,7 +86,7 @@ public class RestructuringCompany {
                     }
                 }
                 else {
-                    System.out.println(hasSameRoot(x, y) ? "YES" : "NO");
+                    printWriter.printf("%s\n", hasSameRoot(x, y) ? "YES" : "NO");
                 }
             }
         } catch (Exception e) {}
