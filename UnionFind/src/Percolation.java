@@ -5,6 +5,12 @@ public class Percolation {
     private int ds [];          // nós
     private int sz [];          // pesos
     private int qSites;
+    private static final int [][] directions = {
+         {0,-1}     // left
+        ,{-1,0}    // top
+        ,{0,1}     // right
+        ,{1,0}     // bottom
+    };
 
     /**
      * Como transformar o par i,j de uma matriz bidimensional num valor k
@@ -84,12 +90,6 @@ public class Percolation {
         return sites[idx];
     }
 
-    private static final int [][] directions = {
-         {0,-1}    // left
-        ,{-1,0}    // top
-        ,{0,1}     // right
-        ,{1,0}     // bottom
-    };
 
     private boolean isValid(int row, int col) {
         return row > 0 && row < qSites+1 && col > 0 && col < qSites+1;
