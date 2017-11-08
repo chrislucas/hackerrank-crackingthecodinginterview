@@ -1,3 +1,4 @@
+import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.StdStats;
 
@@ -50,10 +51,10 @@ public class PercolationStats {
 
     public static void main(String[] args) {
         PercolationStats pStats = new PercolationStats(10, 1000);
-        System.out.printf("Mean: %f\n", pStats.mean());
-        System.out.printf("Standard Deviation: %f\n", pStats.stddev());
-        System.out.printf("Lo: %f\n", pStats.condidenceLo());
-        System.out.printf("Hi: %f\n", pStats.confidenceHi());
+        StdOut.printf("Mean: %f\n", pStats.mean());
+        StdOut.printf("Standard Deviation: %f\n", pStats.stddev());
+        StdOut.printf("Lo: %f\n", pStats.condidenceLo());
+        StdOut.printf("Hi: %f\n", pStats.confidenceHi());
     }
 
 }

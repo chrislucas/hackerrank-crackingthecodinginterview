@@ -59,7 +59,7 @@ public class PercolationVisualizer {
     }
 
     public static void main(String[] args) {
-        String path = "raw/testing/percolation/snake101.txt";
+        String path = "raw/testing/percolation/wayne98.txt";
         In in = new In(path);           // input file
         int n = in.readInt();           // n-by-n percolation system
         // turn on animation mode
