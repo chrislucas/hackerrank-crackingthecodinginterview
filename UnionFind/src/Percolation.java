@@ -13,11 +13,11 @@ public class Percolation {
      * */
 
     public Percolation(int n) {
-        qSites  = n;
-        int limit = (n+2)*(n+2);
-        sites   = new boolean[limit+1];
-        ds      = new int[limit+1];
-        sz      = new int[limit+1];
+        qSites      = n;
+        int limit   = (n+2)*(n+2);
+        sites       = new boolean[limit+1];
+        ds          = new int[limit+1];
+        sz          = new int[limit+1];
         for(int i = 0; i<limit; i++) {
             ds[i] = i;
             sz[i] = 1;
@@ -60,8 +60,16 @@ public class Percolation {
         return openSites;
     }
 
+    private int root(int p) {
+        if(p == ds[p])
+            return p;
+        return root(ds[p]);
+    }
+
     public boolean percolates() {
-        return false;
+
+
+        return root(ds[0]) == root(ds[qSites]);
     }
 
     public static void main(String[] args) { }
