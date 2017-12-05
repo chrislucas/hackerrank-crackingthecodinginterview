@@ -19,6 +19,13 @@ public class Percolation {
      * */
 
     public Percolation(int n) {
+<<<<<<< HEAD
+        qSites      = n;
+        int limit   = (n+2)*(n+2);
+        sites       = new boolean[limit+1];
+        ds          = new int[limit+1];
+        sz          = new int[limit+1];
+=======
         if(n < 0) {
             throw new IllegalArgumentException();
         }
@@ -27,6 +34,7 @@ public class Percolation {
         sites   = new boolean[limit];
         ds      = new int[limit];
         sz      = new int[limit];
+>>>>>>> b779ae6205770fd4644a19b26a6aca014994149d
         for(int i = 0; i<limit; i++) {
             ds[i] = i;
             sz[i] = 1;
@@ -109,8 +117,20 @@ public class Percolation {
         return openSites;
     }
 
+    private int root(int p) {
+        if(p == ds[p])
+            return p;
+        return root(ds[p]);
+    }
+
     public boolean percolates() {
+<<<<<<< HEAD
+
+
+        return root(ds[0]) == root(ds[qSites]);
+=======
         return find(ds[0]) == find(ds[qSites*qSites+1]);
+>>>>>>> b779ae6205770fd4644a19b26a6aca014994149d
     }
 
     public static void main(String[] args) { }
