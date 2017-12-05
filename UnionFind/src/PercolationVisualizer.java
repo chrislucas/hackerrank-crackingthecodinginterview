@@ -59,9 +59,9 @@ public class PercolationVisualizer {
     }
 
     public static void main(String[] args) {
-        String path = "raw/testing/percolation/input50.txt";
-        In in = new In(path);      // input file
-        int n = in.readInt();         // n-by-n percolation system
+        String path = "raw/testing/percolation/wayne98.txt";
+        In in = new In(path);           // input file
+        int n = in.readInt();           // n-by-n percolation system
         // turn on animation mode
         StdDraw.enableDoubleBuffering();
         // repeatedly read in sites to open and draw resulting system
