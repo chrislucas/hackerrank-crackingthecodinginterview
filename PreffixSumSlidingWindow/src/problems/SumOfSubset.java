@@ -5,7 +5,7 @@ public class SumOfSubset {
 
     public static int maxSumOfSubsetK(int [] set, int k) {
         int limit = set.length;
-        if(k < limit)
+        if(k > limit)
             return -1;
         int acc = 0;
         for (int i=0; i<k ; i++) {
