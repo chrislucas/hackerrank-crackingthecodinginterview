@@ -15,7 +15,6 @@ public class SumOfSubset {
         for (int i = k; i < limit ; i++) {
             partial = partial + set[i] - set[i-k];
             acc = Math.max(acc, partial);
-
         }
         return acc;
     }
