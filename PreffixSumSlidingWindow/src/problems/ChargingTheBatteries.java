@@ -1,21 +1,17 @@
 package problems;
 
-import sun.plugin.com.event.COMEventListener;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.StringTokenizer;
+import java.util.*;
+
+/**
+ *
+ * */
 
 public class ChargingTheBatteries {
 
     public static final BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     public static final PrintWriter writer = new PrintWriter(new OutputStreamWriter(System.out), true);
-
-
-    public static int absManhatanDisntance(int x1, int y1, int x2, int y2) {
-        return Math.abs(x1-x2) + Math.abs(y1-y2);
-    }
 
     static class Points2D {
         int x, y, line;
@@ -24,37 +20,36 @@ public class ChargingTheBatteries {
             this.y = y;
             this.line = line;
         }
+
+        public int absManhatanDistance(Points2D that) {
+            return Math.abs(x-that.x) + Math.abs(y-that.y);
+        }
     }
 
-    Comparator<Points2D> comparator = new Comparator<Points2D>() {
+    static Comparator<Points2D>  sortByLineNumber = new Comparator<Points2D>() {
         @Override
         public int compare(Points2D a, Points2D b) {
             return a.line - b.line;
         }
     };
 
-    public static int solver(int [] set, int k) {
-        int max = set[0];
+    public static int minValueSubsetK(int [] set, int k) {
+        int min = set[0];
         for(int idx=0; idx<k; idx++)
-            max = set[idx] > max ? set[idx] : max;
-        int current = max;
+            min = set[idx] < min ? set[idx] : min;
+        int current = min;
         for(int idx=k; idx<set.length; idx++) {
             current = current + set[idx] - set[idx-k];
-            max = current > max ? current : max;
+            min = current < min ? current : min;
         }
-
-        return max;
+        return min;
     }
 
     public static void s1(int n, int m, int k) throws IOException {
         StringTokenizer tk;
         int set [] = new int[m];
-        Points2D [] line1 = new Points2D[m];
-        Points2D [] line2 = new Points2D[m];
-        Points2D [] line3 = new Points2D[m];
-        Points2D [] line4 = new Points2D[m];
-
         // sockets
+        Points2D [] points2D = new Points2D[m];
         for (int i = 0; i < m; i++) {
             tk = new StringTokenizer(reader.readLine(), " ");
             int x = Integer.parseInt(tk.nextToken());
@@ -77,14 +72,25 @@ public class ChargingTheBatteries {
                 line = 3;
             else
                 line = 4;
-            Points2D p = new Points2D(x, y, line);
+            points2D[i] = new Points2D(x, y, line);
+
         }
+        Arrays.sort(points2D, sortByLineNumber);
+        for(int i=1; i<m; i++) {
+            set[i-1] = points2D[i].absManhatanDistance(points2D[i-1]);
+        }
+        writer.printf("%d", minValueSubsetK(set, k));
+    }
+
+    public static void s2(int n, int m, int k) {
+        Points2D [] line1 = new Points2D[m];
+        Points2D [] line2 = new Points2D[m];
+        Points2D [] line3 = new Points2D[m];
+        Points2D [] line4 = new Points2D[m];
     }
 
 
     public static void main(String[] args) {
-
-
         try {
             StringTokenizer tk = new StringTokenizer(reader.readLine(), " ");
             int n = Integer.parseInt(tk.nextToken());
