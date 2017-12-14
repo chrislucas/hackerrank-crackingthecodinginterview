@@ -15,10 +15,10 @@ public class Heapsort {
      * */
     public void decrease() {
         for (int i = n/2-1; i>=0 ; i--)
-            minHeap(i, n);
+            minHeapRec(i, n);
         for (int i = n-1; i>=0 ; i--) {
             swap(0, i);
-            minHeap(0, i);
+            minHeapRec(0, i);
         }
     }
 
@@ -59,6 +59,18 @@ public class Heapsort {
                 break;
         }
     }
+
+    public void minHeapRec(int index, int size) {
+        int leftChild  = 2*index+1;
+        int rightChild = leftChild+1;
+        int smallest = leftChild < size && lessThan(arrayData[leftChild], arrayData[index]) ? leftChild : index;
+        smallest = rightChild < size && lessThan(arrayData[rightChild], arrayData[smallest]) ? rightChild : smallest;
+        if(smallest != index) {
+            swap(index, smallest);
+            minHeapRec(smallest, size);
+        }
+    }
+
 
     public void maxHeap(int index, int size) {
         int greatest;

@@ -67,9 +67,9 @@ public class MinHeap {
      * */
     public void minHeapRec(int index) {
         int leftChild  = left(index);
-        int rightChild = leftChild+1; //right(index);
+        int rightChild = leftChild+1;
         int smallest = leftChild < controlSize && lessThan(arrayData[leftChild], arrayData[index]) ? leftChild : index;
-        smallest = rightChild < controlSize && lessThan(arrayData[rightChild], arrayData[index]) ? rightChild : smallest;
+        smallest = rightChild < controlSize && lessThan(arrayData[rightChild], arrayData[smallest]) ? rightChild : smallest;
         if(smallest != index) {
             swap(index, smallest);
             minHeapRec(smallest);
@@ -77,10 +77,10 @@ public class MinHeap {
     }
 
     public void minHeapIt(int index) {
-        int smallest = -1;
+        int smallest;
         while (true) {
             int leftChild  = left(index);
-            int rightChild = leftChild+1;//right(index);
+            int rightChild = leftChild+1;
             smallest = leftChild < controlSize && lessThan(arrayData[leftChild], arrayData[index]) ? leftChild : index;
             smallest = rightChild < controlSize && lessThan(arrayData[rightChild], arrayData[smallest]) ? rightChild : smallest;
             if(smallest != index) {
@@ -106,9 +106,8 @@ public class MinHeap {
     public void add(Data data) {
         if(controlSize == arrayData.length)
             resize(controlSize * 2);
-        arrayData[controlSize] = data;
+        arrayData[controlSize++] = data;
         fix();
-        controlSize++;
     }
     /**
      * Se o no pai for maior que um dos nos filhos, troque de posicao
@@ -129,9 +128,7 @@ public class MinHeap {
         return stringBuilder.toString();
     }
 
-    public void remove() {
-
-    }
+    public void remove() { }
 
     public static void s1() {
         Data [] array  =  {
