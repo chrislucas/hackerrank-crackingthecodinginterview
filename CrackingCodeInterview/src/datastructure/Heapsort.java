@@ -14,39 +14,65 @@ public class Heapsort {
      * Vamos aproveitar isso para ordenar de forma descrente
      * */
     public void decrease() {
-        for (int i = n/2-1; i>-1 ; i--)
-            minHeapIt(i, n);
-        int sz = n-1;
-        while (sz > 0) {
-            swap(0, sz);
-            minHeapIt(1, sz);
-            sz--;
+        for (int i = n/2-1; i>=0 ; i--)
+            minHeap(i, n);
+        for (int i = n-1; i>=0 ; i--) {
+            swap(0, i);
+            minHeap(0, i);
         }
     }
 
     public void increase() {
-
+        for (int i = n/2-1; i>=0 ; i--)
+            maxHeap(i, n);
+        for (int i = n-1; i>0 ; i--) {
+            swap(0, i);
+            maxHeap(0, i);
+        }
     }
 
-    public boolean lessThan(Comparable a, Comparable b) {
+    private boolean lessThan(Comparable a, Comparable b) {
         return a.compareTo(b) < 0;
     }
+    private boolean moreThan(Comparable a, Comparable b) {
+        return a.compareTo(b) > 0;
+    }
 
-    public void swap(int p, int q) {
+    private void swap(int p, int q) {
         Comparable aux = arrayData[p];
         arrayData[p] = arrayData[q];
         arrayData[q] = aux;
     }
 
-    public void minHeapIt(int index, int size) {
+    private void minHeap(int index, int size) {
         int smallest = -1;
-        while (index != smallest) {
+        while (true) {
             int leftChild  = 2*index+1;
-            int rightChild = leftChild++;
+            int rightChild = leftChild+1;
             smallest = leftChild < size && lessThan(arrayData[leftChild], arrayData[index]) ? leftChild : index;
-            smallest = rightChild < size && lessThan(arrayData[rightChild], arrayData[index]) ? rightChild : smallest;
-            if(smallest != index)
-                swap(smallest, index);
+            smallest = rightChild < size && lessThan(arrayData[rightChild], arrayData[smallest]) ? rightChild : smallest;
+            if(smallest != index) {
+                swap(index, smallest);
+                index = smallest;
+            }
+            else
+                break;
+        }
+    }
+
+    public void maxHeap(int index, int size) {
+        int greatest;
+        while (true) {
+            int leftChild  = 2*index+1;
+            int rightChild = leftChild+1;
+            greatest = leftChild < size && moreThan(arrayData[leftChild], arrayData[index]) ? leftChild : index;
+            greatest = rightChild < size && moreThan(arrayData[rightChild], arrayData[greatest]) ? rightChild : greatest;
+            if(greatest != index) {
+                swap(index, greatest);
+                index = greatest;
+            }
+            else
+                break;
         }
     }
 
@@ -58,9 +84,18 @@ public class Heapsort {
     }
 
     public static void main(String[] args) {
-        Integer [] array = {3,1,4,5,0,32,-1};
-        Heapsort heapsort = new Heapsort(array);
+        Integer [][] array = {
+            {3,1,4,5,0,32,-1}
+            ,{7,8,3,1,2,4,7,12,-15}
+            ,{10,9,8,7,6,5,4,3,2,1}
+        };
+        int idx = 2;
+        Heapsort heapsort = new Heapsort(array[idx]);
         heapsort.decrease();
+        System.out.println(heapsort.toString());
+
+        heapsort = new Heapsort(array[idx]);
+        heapsort.increase();
         System.out.println(heapsort.toString());
     }
 }

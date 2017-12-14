@@ -67,25 +67,28 @@ public class MinHeap {
      * */
     public void minHeapRec(int index) {
         int leftChild  = left(index);
-        int rightChild = leftChild++; //right(index);
+        int rightChild = leftChild+1; //right(index);
         int smallest = leftChild < controlSize && lessThan(arrayData[leftChild], arrayData[index]) ? leftChild : index;
         smallest = rightChild < controlSize && lessThan(arrayData[rightChild], arrayData[index]) ? rightChild : smallest;
         if(smallest != index) {
-            swap(smallest, index);
+            swap(index, smallest);
             minHeapRec(smallest);
         }
     }
 
     public void minHeapIt(int index) {
         int smallest = -1;
-        while (index != smallest) {
+        while (true) {
             int leftChild  = left(index);
-            int rightChild = leftChild++;//right(index);
+            int rightChild = leftChild+1;//right(index);
             smallest = leftChild < controlSize && lessThan(arrayData[leftChild], arrayData[index]) ? leftChild : index;
-            smallest = rightChild < controlSize && lessThan(arrayData[rightChild], arrayData[index]) ? rightChild : smallest;
+            smallest = rightChild < controlSize && lessThan(arrayData[rightChild], arrayData[smallest]) ? rightChild : smallest;
             if(smallest != index) {
-                swap(smallest, index);
+                swap(index, smallest);
+                index = smallest;
             }
+            else
+                break;
         }
     }
 
@@ -148,7 +151,6 @@ public class MinHeap {
 
     public static void s2() {
         // 3  2  1  7  8  4  10  16  12
-        MinHeap minHeap = new MinHeap();
         Data [] array  =  {
              new Data(3)
             ,new Data(2)
