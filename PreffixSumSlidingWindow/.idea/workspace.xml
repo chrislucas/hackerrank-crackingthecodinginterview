@@ -65,11 +65,19 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="329" />
+    <option name="y" value="38" />
+    <option name="width" value="1221" />
+    <option name="height" value="758" />
+=======
   <component name="ProjectFrameBounds">
     <option name="x" value="438" />
     <option name="y" value="105" />
     <option name="width" value="1317" />
     <option name="height" value="923" />
+>>>>>>> e12ef78ba4d5c588d120a43f0ddebabe28c4d723
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -271,7 +279,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="329" y="38" width="1221" height="758" extended-state="1" />
+    <editor active="true" />
+=======
     <frame x="438" y="105" width="1317" height="923" extended-state="0" />
+>>>>>>> e12ef78ba4d5c588d120a43f0ddebabe28c4d723
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
