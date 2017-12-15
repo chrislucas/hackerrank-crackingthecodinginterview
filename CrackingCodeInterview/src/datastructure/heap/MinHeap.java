@@ -1,4 +1,4 @@
-package datastructure;
+package datastructure.heap;
 
 import java.util.Comparator;
 
@@ -52,7 +52,7 @@ public class MinHeap {
         for (int i = 0; i < n ; i++)
             arrayData[i] = array[i];
         for (int i = n/2-1; i>=0 ; i--)
-            minHeapIt(i);
+            minHeapRec(i);
     }
 
     public void swap(int p, int q) {
@@ -75,7 +75,9 @@ public class MinHeap {
             minHeapRec(smallest);
         }
     }
-
+    /**
+     * Top down - descendo na estrutura heap atraves dos nos filhos
+     * */
     public void minHeapIt(int index) {
         int smallest;
         while (true) {
@@ -106,18 +108,19 @@ public class MinHeap {
     public void add(Data data) {
         if(controlSize == arrayData.length)
             resize(controlSize * 2);
-        arrayData[controlSize++] = data;
+        arrayData[controlSize] = data;
         fix();
+        controlSize++;
     }
     /**
      * Se o no pai for maior que um dos nos filhos, troque de posicao
+     * Bottom up, subindo no estrutura heap pelo no pai
      * */
     public void fix() {
-        for (int k=controlSize-1; k>0; k=parent(k)) {
+        for (int k=controlSize; k>0; k=parent(k)) {
             int p = parent(k);    // indice do no pai
-            int q = k;
-            if(moreThan(arrayData[p], arrayData[q]))
-                swap(p, q);
+            if(moreThan(arrayData[p], arrayData[k]))
+                swap(p, k);
         }
     }
 
@@ -130,8 +133,44 @@ public class MinHeap {
 
     public void remove() { }
 
-    public static void s1() {
-        Data [] array  =  {
+    public static void s2() {
+        test(array[0]);
+    }
+
+    /**
+     * Testando uma funcao que monta um heap a partir da copia de um array
+     * */
+    public static void s3() {
+        MinHeap minHeap = new MinHeap();
+        minHeap.build(array[0]);
+        System.out.println(minHeap.toString());
+    }
+
+    public static void test(Data [] array) {
+        MinHeap minHeap = new MinHeap();
+        for(Data d : array)
+            minHeap.add(d);
+        System.out.println(minHeap.toString());
+    }
+
+    public static void main(String[] args) {
+        s2();
+        s3();
+    }
+
+    public static Data [][] array  =  {
+        {
+             new Data(3)
+            ,new Data(2)
+            ,new Data(1)
+            ,new Data(7)
+            ,new Data(8)
+            ,new Data(4)
+            ,new Data(10)
+            ,new Data(16)
+            ,new Data(12)
+        }
+        ,{
              new Data(10)
             ,new Data(9)
             ,new Data(8)
@@ -142,53 +181,6 @@ public class MinHeap {
             ,new Data(3)
             ,new Data(2)
             ,new Data(1)
-        };
-        test(array);
-    }
-
-    public static void s2() {
-        // 3  2  1  7  8  4  10  16  12
-        Data [] array  =  {
-             new Data(3)
-            ,new Data(2)
-            ,new Data(1)
-            ,new Data(7)
-            ,new Data(8)
-            ,new Data(4)
-            ,new Data(10)
-            ,new Data(16)
-            ,new Data(12)
-        };
-        test(array);
-    }
-
-    public static void s3() {
-        MinHeap minHeap = new MinHeap();
-        Data [] array  =  {
-                 new Data(3)
-                ,new Data(2)
-                ,new Data(1)
-                ,new Data(7)
-                ,new Data(8)
-                ,new Data(4)
-                ,new Data(10)
-                ,new Data(16)
-                ,new Data(12)
-        };
-        minHeap.build(array);
-        System.out.println(minHeap.toString());
-    }
-
-    public static void test(Data [] array) {
-        MinHeap minHeap = new MinHeap();
-        for(Data d : array)
-            minHeap.add(d);
-        minHeap.fix();
-        System.out.println(minHeap.toString());
-    }
-
-    public static void main(String[] args) {
-        s2();
-        s3();
-    }
+        }
+    };
 }

@@ -1,4 +1,4 @@
-package datastructure;
+package datastructure.heap.sort;
 
 public class Heapsort {
 
@@ -70,7 +70,6 @@ public class Heapsort {
             minHeapRec(smallest, size);
         }
     }
-
 
     public void maxHeap(int index, int size) {
         int greatest;
