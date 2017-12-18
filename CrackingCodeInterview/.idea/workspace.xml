@@ -2,59 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9a8494-38e1-46f3-a8cc-950239ed719d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/ConvertBases.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/RecFibo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/StringFormatDateTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/URI1029.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithm/BFS$Edge.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithm/BFS.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithm/DFS$Cell.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithm/DFS.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithm/UnionFind.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithms/BinarySearchICP$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithms/BinarySearchICP$IceCream.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithms/BinarySearchICP.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithms/TwoSumProblems.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/HashTableRansomNote.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/IsBST.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/LinkedListDetectCycle$Node.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/LinkedListDetectCycle.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/RansomNote.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/hashing/StudyDinHashtable$CustomHashtable$Hashing.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/hashing/StudyDinHashtable$CustomHashtable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/hashing/StudyDinHashtable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/hashing/StudyHashTable$CustomHashtable$Hashing.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/hashing/StudyHashTable$CustomHashtable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/hashing/StudyHashTable$HashingBRCharSequence.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/hashing/StudyHashTable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/heap/MinHeap$ComparatorPLessThanQ.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/heap/MinHeap$Data.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/heap/MinHeap.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/heap/gen/GenMinHeap$Data.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/heap/sort/Heapsort.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/techniques/Bit.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/techniques/Bitmanipulation.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/techniques/DavesStaircase.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/techniques/TimeComplexityPrimality.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/links" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raw/connected-labeling" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/CoinChangeProblem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/heap/gen/GenMaxHeap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/heap/gen/GenMinHeap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/heap/problems/HeapFindRunningMedian.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/datastructure/GenMaxHeap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/datastructure/GenMinHeap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/datastructure/HeapFindRunningMedian.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/heap" afterPath="$PROJECT_DIR$/raw/heap" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/BFS.java" afterPath="$PROJECT_DIR$/src/algorithms/BFS.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/BFS2.java" afterPath="$PROJECT_DIR$/src/algorithms/BFS2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/DFS.java" afterPath="$PROJECT_DIR$/src/algorithms/DFS.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/ShortestPathBFS.java" afterPath="$PROJECT_DIR$/src/algorithms/ShortestPathBFS.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/UnionFind.java" afterPath="$PROJECT_DIR$/src/algorithms/UnionFind.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/connected-labeling" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithm/connected-labeling" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/datastructure/Heapsort.java" afterPath="$PROJECT_DIR$/src/datastructure/heap/sort/Heapsort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/datastructure/MinHeap.java" afterPath="$PROJECT_DIR$/src/datastructure/heap/MinHeap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datastructure/heap/problems/HeapFindRunningMedian.java" afterPath="$PROJECT_DIR$/src/datastructure/heap/problems/HeapFindRunningMedian.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,11 +24,11 @@
       <file leaf-file-name="HeapFindRunningMedian.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/datastructure/heap/problems/HeapFindRunningMedian.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <state relative-caret-position="318">
+              <caret line="134" column="41" lean-forward="false" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
               <folding>
-                <element signature="e#4470#4471#0" expanded="true" />
-                <element signature="e#4494#4495#0" expanded="true" />
+                <element signature="e#4477#4478#0" expanded="true" />
+                <element signature="e#4501#4502#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,8 +111,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="337" />
-    <option name="y" value="7" />
+    <option name="x" value="238" />
+    <option name="y" value="59" />
     <option name="width" value="1194" />
     <option name="height" value="875" />
   </component>
@@ -653,7 +601,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="337" y="7" width="1194" height="875" extended-state="0" />
+    <frame x="238" y="59" width="1194" height="875" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -674,7 +623,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49187934" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4036313" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4036313" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1387,11 +1336,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/heap/problems/HeapFindRunningMedian.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state relative-caret-position="318">
+          <caret line="134" column="41" lean-forward="false" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
           <folding>
-            <element signature="e#4470#4471#0" expanded="true" />
-            <element signature="e#4494#4495#0" expanded="true" />
+            <element signature="e#4477#4478#0" expanded="true" />
+            <element signature="e#4501#4502#0" expanded="true" />
           </folding>
         </state>
       </provider>

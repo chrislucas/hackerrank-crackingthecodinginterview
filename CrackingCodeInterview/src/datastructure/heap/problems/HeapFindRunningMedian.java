@@ -123,16 +123,16 @@ public class HeapFindRunningMedian {
     }
 
     public static void minHeap(double array [], int size, int k) {
-        int largest = k;
+        int smallest = k;
         int l = 2*k+1;
         int r = l+1;
         if(l < size && array[l] < array[k])
-            largest = l;
-        if(r < size && array[r] < array[largest])
-            largest = r;
-        if(largest != k) {
-            swap(array, largest, k);
-            minHeap(array, size, largest);
+            smallest = l;
+        if(r < size && array[r] < array[smallest])
+            smallest = r;
+        if(smallest != k) {
+            swap(array, smallest, k);
+            minHeap(array, size, smallest);
         }
     }
 
