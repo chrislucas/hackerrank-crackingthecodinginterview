@@ -51,7 +51,7 @@ public class MinHeap {
         controlSize = n;
         for (int i = 0; i < n ; i++)
             arrayData[i] = array[i];
-        for (int i = n/2-1; i>=0 ; i--)
+        for (int i = (n-1)/2; i>=0 ; i--)
             minHeapRec(i);
     }
 
@@ -108,16 +108,15 @@ public class MinHeap {
     public void add(Data data) {
         if(controlSize == arrayData.length)
             resize(controlSize * 2);
-        arrayData[controlSize] = data;
+        arrayData[controlSize++] = data;
         fix();
-        controlSize++;
     }
     /**
      * Se o no pai for maior que um dos nos filhos, troque de posicao
      * Bottom up, subindo no estrutura heap pelo no pai
      * */
     public void fix() {
-        for (int k=controlSize; k>0; k=parent(k)) {
+        for (int k=controlSize-1; k>0; k=parent(k)) {
             int p = parent(k);    // indice do no pai
             if(moreThan(arrayData[p], arrayData[k]))
                 swap(p, k);
@@ -154,7 +153,7 @@ public class MinHeap {
     }
 
     public static void main(String[] args) {
-        s2();
+        //s2();
         s3();
     }
 
@@ -162,8 +161,8 @@ public class MinHeap {
         {
              new Data(3)
             ,new Data(2)
-            ,new Data(1)
             ,new Data(7)
+            ,new Data(1)
             ,new Data(8)
             ,new Data(4)
             ,new Data(10)

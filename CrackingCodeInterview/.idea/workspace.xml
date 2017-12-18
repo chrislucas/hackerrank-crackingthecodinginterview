@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f9a8494-38e1-46f3-a8cc-950239ed719d" name="Default" comment="" />
+    <list default="true" id="1f9a8494-38e1-46f3-a8cc-950239ed719d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithms/BFS$Edge.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithms/BFS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithms/CoinChangeProblem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithms/DFS$Cell.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithms/DFS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithms/ShortestPathBFS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithms/UnionFind.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/CoinChangeProblem.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithm/BFS$Edge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithm/BFS.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithm/DFS$Cell.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithm/DFS.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithm/ShortestPathBFS.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithm/UnionFind.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithm/connected-labeling" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/heap/gen/GenMinHeap$Data.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithm/BFS2$Graph.class" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithms/BFS2$Graph.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithm/BFS2.class" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/algorithms/BFS2.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/BFS.java" afterPath="$PROJECT_DIR$/src/algorithms/BFS.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/BFS2.java" afterPath="$PROJECT_DIR$/src/algorithms/BFS2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/DFS.java" afterPath="$PROJECT_DIR$/src/algorithms/DFS.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/ShortestPathBFS.java" afterPath="$PROJECT_DIR$/src/algorithms/ShortestPathBFS.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/UnionFind.java" afterPath="$PROJECT_DIR$/src/algorithms/UnionFind.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/connected-labeling" afterPath="$PROJECT_DIR$/raw/connected-labeling" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/heap/MinHeap.class" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/heap/MinHeap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/heap/gen/GenMaxHeap.class" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/heap/gen/GenMaxHeap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/heap/gen/GenMinHeap.class" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/heap/gen/GenMinHeap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/heap/problems/HeapFindRunningMedian.class" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/heap/problems/HeapFindRunningMedian.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/heap/sort/Heapsort.class" afterPath="$PROJECT_DIR$/out/production/CrackingCodeInterview/datastructure/heap/sort/Heapsort.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/heap" afterPath="$PROJECT_DIR$/raw/heap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datastructure/heap/MinHeap.java" afterPath="$PROJECT_DIR$/src/datastructure/heap/MinHeap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datastructure/heap/gen/GenMaxHeap.java" afterPath="$PROJECT_DIR$/src/datastructure/heap/gen/GenMaxHeap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datastructure/heap/gen/GenMinHeap.java" afterPath="$PROJECT_DIR$/src/datastructure/heap/gen/GenMinHeap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datastructure/heap/problems/HeapFindRunningMedian.java" afterPath="$PROJECT_DIR$/src/datastructure/heap/problems/HeapFindRunningMedian.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datastructure/heap/sort/Heapsort.java" afterPath="$PROJECT_DIR$/src/datastructure/heap/sort/Heapsort.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,53 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MinHeap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datastructure/heap/MinHeap.java">
+      <file leaf-file-name="HeapFindRunningMedian.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/heap/problems/HeapFindRunningMedian.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-293">
-              <caret line="96" column="15" lean-forward="false" selection-start-line="96" selection-start-column="15" selection-end-line="96" selection-end-column="15" />
-              <folding>
-                <element signature="e#979#980#0" expanded="true" />
-                <element signature="e#1025#1026#0" expanded="true" />
-                <element signature="e#1072#1073#0" expanded="true" />
-                <element signature="e#1111#1112#0" expanded="true" />
-                <element signature="e#4131#4132#0" expanded="true" />
-                <element signature="e#4161#4162#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenMinHeap.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/datastructure/heap/gen/GenMinHeap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="46" column="77" lean-forward="false" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="77" />
-              <folding>
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Heapsort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datastructure/heap/sort/Heapsort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="heap" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/raw/heap">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="58" />
+            <state relative-caret-position="210">
+              <caret line="134" column="41" lean-forward="false" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -126,7 +121,6 @@
         <option value="$PROJECT_DIR$/raw/linkedlist" />
         <option value="$PROJECT_DIR$/src/datastructure/LinkedListDetectCycle.java" />
         <option value="$PROJECT_DIR$/src/datastructure/Heap.java" />
-        <option value="$PROJECT_DIR$/raw/heap" />
         <option value="$PROJECT_DIR$/src/datastructure/GenMinHeap.java" />
         <option value="$PROJECT_DIR$/src/datastructure/GenMaxHeap.java" />
         <option value="$PROJECT_DIR$/src/datastructure/Heapsort.java" />
@@ -135,25 +129,27 @@
         <option value="$PROJECT_DIR$/src/datastructure/HeapFindRunningMedian.java" />
         <option value="$PROJECT_DIR$/src/datastructure/MinHeap.java" />
         <option value="$PROJECT_DIR$/src/datastructure/heap/HeapFindRunningMedian.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/heap/MinHeap.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/CoinChangeProblem.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/heap/gen/GenMinHeap.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/heap/gen/GenMaxHeap.java" />
+        <option value="$PROJECT_DIR$/raw/heap" />
         <option value="$PROJECT_DIR$/src/datastructure/heap/sort/Heapsort.java" />
         <option value="$PROJECT_DIR$/src/datastructure/heap/problems/HeapFindRunningMedian.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/heap/MinHeap.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/heap/gen/GenMaxHeap.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/heap/gen/GenMinHeap.java" />
       </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="605" />
-    <option name="y" value="4" />
-    <option name="width" value="986" />
-    <option name="height" value="881" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="238" />
+    <option name="y" value="59" />
+    <option name="width" value="1194" />
+    <option name="height" value="875" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -166,75 +162,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CrackingCodeInterview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CrackingCodeInterview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CrackingCodeInterview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CrackingCodeInterview" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CrackingCodeInterview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CrackingCodeInterview" type="462c0819:PsiDirectoryNode" />
-              <item name="raw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CrackingCodeInterview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CrackingCodeInterview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CrackingCodeInterview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CrackingCodeInterview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CrackingCodeInterview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CrackingCodeInterview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="heap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CrackingCodeInterview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CrackingCodeInterview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="heap" type="462c0819:PsiDirectoryNode" />
-              <item name="gen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CrackingCodeInterview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CrackingCodeInterview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="heap" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CrackingCodeInterview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CrackingCodeInterview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="heap" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
@@ -245,6 +173,10 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\repositories\github\hackerrank-crackingthecodinginterview\CrackingCodeInterview\raw" />
+      <recent name="G:\repositories\github\hackerrank-crackingthecodinginterview\CrackingCodeInterview\src\algorithms" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\r028367\Documents\repositories\github\hackerrank-crackingthecodinginterview\CrackingCodeInterview\raw" />
     </key>
@@ -261,8 +193,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinHeap">
-    <configuration name="Heap" type="Application" factoryName="Application">
+  <component name="RunManager" selected="Application.HeapRunningMedian">
+    <configuration name="GenMaxHeap" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="datastructure.heap.gen.GenMaxHeap" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CrackingCodeInterview" />
+      <envs />
+    </configuration>
+    <configuration name="GenMinHeap" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="datastructure.heap.gen.GenMinHeap" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CrackingCodeInterview" />
+      <envs />
+    </configuration>
+    <configuration name="HeapRunningMedian" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="datastructure.heap.problems.HeapFindRunningMedian" />
       <option name="VM_PARAMETERS" value="" />
@@ -276,9 +236,23 @@
       <module name="CrackingCodeInterview" />
       <envs />
     </configuration>
+    <configuration name="Heapsort" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="datastructure.heap.sort.Heapsort" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CrackingCodeInterview" />
+      <envs />
+    </configuration>
     <configuration name="LinkedListDetectCycle" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="MAIN_CLASS_NAME" value="datastructure.LinkedListDetectCycle" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -573,10 +547,13 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.Heap" />
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Application.Heapsort" />
       <item index="1" class="java.lang.String" itemvalue="Application.LinkedListDetectCycle" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MinHeap" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GenMinHeap" />
+      <item index="3" class="java.lang.String" itemvalue="Application.GenMaxHeap" />
+      <item index="4" class="java.lang.String" itemvalue="Application.HeapRunningMedian" />
+      <item index="5" class="java.lang.String" itemvalue="Application.MinHeap" />
     </list>
   </component>
   <component name="SbtLocalSettings">
@@ -601,22 +578,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1052" extended-state="6" />
+    <frame x="238" y="59" width="1194" height="875" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775453" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.49187934" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42729306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42597765" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13113007" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28306878" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49187934" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -630,9 +607,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775453" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50812066" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -738,61 +716,61 @@
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/BFS.java</url>
+          <url>file://$PROJECT_DIR$/src/algorithms/BFS.java</url>
           <line>86</line>
           <properties />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/BFS.java</url>
+          <url>file://$PROJECT_DIR$/src/algorithms/BFS.java</url>
           <line>111</line>
           <properties />
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/BFS.java</url>
+          <url>file://$PROJECT_DIR$/src/algorithms/BFS.java</url>
           <line>81</line>
           <properties />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/BFS.java</url>
+          <url>file://$PROJECT_DIR$/src/algorithms/BFS.java</url>
           <line>68</line>
           <properties />
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/BFS.java</url>
+          <url>file://$PROJECT_DIR$/src/algorithms/BFS.java</url>
           <line>39</line>
           <properties />
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/BFS.java</url>
+          <url>file://$PROJECT_DIR$/src/algorithms/BFS.java</url>
           <line>44</line>
           <properties />
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/BFS2.java</url>
+          <url>file://$PROJECT_DIR$/src/algorithms/BFS2.java</url>
           <line>52</line>
           <properties />
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/BFS2.java</url>
+          <url>file://$PROJECT_DIR$/src/algorithms/BFS2.java</url>
           <line>35</line>
           <properties />
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/BFS2.java</url>
+          <url>file://$PROJECT_DIR$/src/algorithms/BFS2.java</url>
           <line>72</line>
           <properties />
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/BFS2.java</url>
+          <url>file://$PROJECT_DIR$/src/algorithms/BFS2.java</url>
           <line>59</line>
           <properties />
           <option name="timeStamp" value="69" />
@@ -840,31 +818,103 @@
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/datastructure/heap/sort/Heapsort.java</url>
-          <line>47</line>
+          <url>file://$PROJECT_DIR$/src/datastructure/heap/gen/GenMinHeap.java</url>
+          <line>140</line>
           <properties />
-          <option name="timeStamp" value="101" />
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/heap/gen/GenMinHeap.java</url>
+          <line>132</line>
+          <properties />
+          <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/datastructure/heap/MinHeap.java</url>
-          <line>136</line>
+          <line>118</line>
           <properties />
-          <option name="timeStamp" value="103" />
+          <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/datastructure/heap/MinHeap.java</url>
-          <line>119</line>
+          <url>file://$PROJECT_DIR$/src/datastructure/heap/gen/GenMinHeap.java</url>
+          <line>120</line>
           <properties />
-          <option name="timeStamp" value="109" />
+          <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/datastructure/heap/MinHeap.java</url>
-          <line>108</line>
+          <url>file://$PROJECT_DIR$/src/datastructure/heap/gen/GenMinHeap.java</url>
+          <line>46</line>
           <properties />
-          <option name="timeStamp" value="110" />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/heap/gen/GenMinHeap.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/heap/gen/GenMaxHeap.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/heap/gen/GenMaxHeap.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/heap/gen/GenMaxHeap.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/heap/gen/GenMaxHeap.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/heap/problems/HeapFindRunningMedian.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/heap/problems/HeapFindRunningMedian.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/heap/problems/HeapFindRunningMedian.java</url>
+          <line>145</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/heap/problems/HeapFindRunningMedian.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/heap/problems/HeapFindRunningMedian.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/heap/problems/HeapFindRunningMedian.java</url>
+          <line>125</line>
+          <properties />
+          <option name="timeStamp" value="148" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="111" />
+      <option name="time" value="149" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -877,46 +927,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/RecFibo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="22" lean-forward="false" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/links">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="81" lean-forward="false" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/URI1029.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2578#2579#0" expanded="false" />
-            <element signature="e#2602#2603#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/URI1029.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2578#2579#0" expanded="false" />
-            <element signature="e#2602#2603#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DavesStaircase.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1079,14 +1089,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/ShortestPathBFS.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithms/ShortestPathBFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/BFS2.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithms/BFS2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
@@ -1100,7 +1110,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/BFS.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithms/BFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-421">
           <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
@@ -1159,19 +1169,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/LinkedListDetectCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding>
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#1904#1905#0" expanded="true" />
-            <element signature="e#1949#1950#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/raw/convexhull">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1190,71 +1187,117 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1536">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/LinkedListDetectCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/heap/MinHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1011">
+          <caret line="164" column="23" lean-forward="false" selection-start-line="164" selection-start-column="23" selection-end-line="164" selection-end-column="23" />
+          <folding>
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#4114#4115#0" expanded="true" />
+            <element signature="e#4144#4145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/CoinChangeProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="16" column="97" lean-forward="false" selection-start-line="16" selection-start-column="97" selection-end-line="16" selection-end-column="97" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/raw/heap">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="58" />
-          <folding />
+        <state relative-caret-position="304">
+          <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/heap/problems/HeapFindRunningMedian.java">
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/text/DecimalFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="55" column="36" lean-forward="false" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1318#1319#0" expanded="true" />
-            <element signature="e#1360#1361#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1552">
+          <caret line="380" column="13" lean-forward="false" selection-start-line="380" selection-start-column="13" selection-end-line="380" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/text/NumberFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="556" column="31" lean-forward="false" selection-start-line="556" selection-start-column="31" selection-end-line="556" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/heap/sort/Heapsort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state relative-caret-position="123">
+          <caret line="97" column="9" lean-forward="true" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/heap/gen/GenMaxHeap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/heap/MinHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-293">
-          <caret line="96" column="15" lean-forward="false" selection-start-line="96" selection-start-column="15" selection-end-line="96" selection-end-column="15" />
+        <state relative-caret-position="-164">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#4131#4132#0" expanded="true" />
-            <element signature="e#4161#4162#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/heap/gen/GenMinHeap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="46" column="77" lean-forward="false" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="77" />
+        <state relative-caret-position="192">
+          <caret line="105" column="34" lean-forward="false" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="34" />
           <folding>
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/heap/problems/HeapFindRunningMedian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="134" column="41" lean-forward="false" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>

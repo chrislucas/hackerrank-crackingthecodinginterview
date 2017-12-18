@@ -24,10 +24,10 @@ public class Heapsort {
 
     public void increase() {
         for (int i = n/2-1; i>=0 ; i--)
-            maxHeap(i, n);
+            maxHeapRec(i, n);
         for (int i = n-1; i>0 ; i--) {
             swap(0, i);
-            maxHeap(0, i);
+            maxHeapRec(0, i);
         }
     }
 
@@ -44,22 +44,6 @@ public class Heapsort {
         arrayData[q] = aux;
     }
 
-    private void minHeap(int index, int size) {
-        int smallest = -1;
-        while (true) {
-            int leftChild  = 2*index+1;
-            int rightChild = leftChild+1;
-            smallest = leftChild < size && lessThan(arrayData[leftChild], arrayData[index]) ? leftChild : index;
-            smallest = rightChild < size && lessThan(arrayData[rightChild], arrayData[smallest]) ? rightChild : smallest;
-            if(smallest != index) {
-                swap(index, smallest);
-                index = smallest;
-            }
-            else
-                break;
-        }
-    }
-
     public void minHeapRec(int index, int size) {
         int leftChild  = 2*index+1;
         int rightChild = leftChild+1;
@@ -68,6 +52,17 @@ public class Heapsort {
         if(smallest != index) {
             swap(index, smallest);
             minHeapRec(smallest, size);
+        }
+    }
+
+    public void maxHeapRec(int index, int size) {
+        int l = 2*index+1;
+        int r = l+1;
+        int smallest = l < size && ! lessThan(arrayData[l], arrayData[index]) ? l : index;
+        smallest = r < size && ! lessThan(arrayData[r], arrayData[smallest]) ? r : smallest;
+        if(smallest != index) {
+            swap(index, smallest);
+            maxHeapRec(smallest, size);
         }
     }
 
@@ -87,6 +82,22 @@ public class Heapsort {
         }
     }
 
+    private void minHeap(int index, int size) {
+        int smallest = -1;
+        while (true) {
+            int leftChild  = 2*index+1;
+            int rightChild = leftChild+1;
+            smallest = leftChild < size && lessThan(arrayData[leftChild], arrayData[index]) ? leftChild : index;
+            smallest = rightChild < size && lessThan(arrayData[rightChild], arrayData[smallest]) ? rightChild : smallest;
+            if(smallest != index) {
+                swap(index, smallest);
+                index = smallest;
+            }
+            else
+                break;
+        }
+    }
+
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
         for(int i=0; i<n; i++)
@@ -100,7 +111,7 @@ public class Heapsort {
             ,{7,8,3,1,2,4,7,12,-15}
             ,{10,9,8,7,6,5,4,3,2,1}
         };
-        int idx = 2;
+        int idx = 1;
         Heapsort heapsort = new Heapsort(array[idx]);
         heapsort.decrease();
         System.out.println(heapsort.toString());
