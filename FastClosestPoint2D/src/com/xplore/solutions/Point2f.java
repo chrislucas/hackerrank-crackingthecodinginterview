@@ -1,8 +1,8 @@
 package com.xplore.solutions;
 
-public class Pointf2D {
+public class Point2f {
     double x, y;
-    public Pointf2D(double x, double y) {
+    public Point2f(double x, double y) {
         this.x = x;
         this.y = y;
     }
@@ -12,7 +12,7 @@ public class Pointf2D {
         return String.format("P(%f,%f)", x, y);
     }
 
-    public double euclidianD(ClosestPoint2D.Point2D that) {
+    public double euclidianD(Point2f that) {
         double diffX = that.x - this.x;
         double diffY = that.y - this.y;
         return Math.sqrt(diffX*diffX+diffY*diffY);
