@@ -15,14 +15,14 @@
       <file leaf-file-name="ClosestPoint2D.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/xplore/solutions/ClosestPoint2D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="198" column="27" lean-forward="false" selection-start-line="198" selection-start-column="27" selection-end-line="198" selection-end-column="27" />
+            <state relative-caret-position="126">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1157#1158#0" expanded="true" />
                 <element signature="e#1197#1198#0" expanded="true" />
-                <element signature="e#6641#6642#0" expanded="true" />
                 <element signature="e#6663#6664#0" expanded="true" />
+                <element signature="e#6685#6686#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -31,7 +31,7 @@
       <file leaf-file-name="URI1295.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/xplore/problems/URI1295.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
+            <state relative-caret-position="177">
               <caret line="72" column="44" lean-forward="false" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -68,9 +68,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="360" />
-    <option name="y" value="131" />
-    <option name="width" value="1274" />
-    <option name="height" value="760" />
+    <option name="y" value="27" />
+    <option name="width" value="1327" />
+    <option name="height" value="864" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -257,7 +257,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="360" y="131" width="1274" height="760" extended-state="0" />
+    <frame x="360" y="27" width="1327" height="864" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -270,18 +270,18 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3936877" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39235127" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16803955" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16113745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3820598" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39518413" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -311,12 +311,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/xplore/solutions/ClosestPoint2D.java</url>
-          <line>211</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/xplore/solutions/ClosestPoint2D.java</url>
           <line>139</line>
           <properties />
           <option name="timeStamp" value="24" />
@@ -339,8 +333,14 @@
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/xplore/solutions/ClosestPoint2D.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="28" />
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -353,8 +353,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1157#1158#0" expanded="true" />
             <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#6641#6642#0" expanded="true" />
             <element signature="e#6663#6664#0" expanded="true" />
+            <element signature="e#6685#6686#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -391,8 +391,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1157#1158#0" expanded="true" />
             <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#6641#6642#0" expanded="true" />
             <element signature="e#6663#6664#0" expanded="true" />
+            <element signature="e#6685#6686#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -421,8 +421,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1157#1158#0" expanded="true" />
             <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#6641#6642#0" expanded="true" />
             <element signature="e#6663#6664#0" expanded="true" />
+            <element signature="e#6685#6686#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -451,8 +451,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1157#1158#0" expanded="true" />
             <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#6641#6642#0" expanded="true" />
             <element signature="e#6663#6664#0" expanded="true" />
+            <element signature="e#6685#6686#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -502,8 +502,8 @@
         <state relative-caret-position="220">
           <caret line="637" column="16" lean-forward="false" selection-start-line="637" selection-start-column="16" selection-end-line="637" selection-end-column="16" />
           <folding>
-            <element signature="e#22432#22433#0" expanded="true" />
-            <element signature="e#22472#22473#0" expanded="true" />
+            <element signature="e#22432#22433#0" expanded="false" />
+            <element signature="e#22472#22473#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -526,7 +526,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xplore/problems/URI1295.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
+        <state relative-caret-position="177">
           <caret line="72" column="44" lean-forward="false" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -536,14 +536,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xplore/solutions/ClosestPoint2D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="198" column="27" lean-forward="false" selection-start-line="198" selection-start-column="27" selection-end-line="198" selection-end-column="27" />
+        <state relative-caret-position="126">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1157#1158#0" expanded="true" />
             <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#6641#6642#0" expanded="true" />
             <element signature="e#6663#6664#0" expanded="true" />
+            <element signature="e#6685#6686#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -62,12 +62,12 @@ public class ClosestPoint2D {
     /**
      * n log(n)
      * */
-    private static double solver(Point2d[] orderByX, Point2d[] aux,  int hi) {
+    private static double solver(Point2d[] orderByX, Point2d[] aux,  int lo, int hi) {
         if(hi <= 3)
-            return brute(orderByX, 0, hi);
+            return brute(orderByX, lo, hi);
         int mid = hi/2;
-        double left = solver(orderByX, aux, mid);
-        double right = solver(orderByX, aux,   hi - mid);
+        double left = solver(orderByX, aux, 0, mid);
+        double right = solver(orderByX, aux,   mid+1, hi - mid);
         double currentMin = Math.min(left, right);
         int k = 0;
         for (int i = 0; i < hi ; i++) {
@@ -187,20 +187,19 @@ public class ClosestPoint2D {
             ,new Point2d(1, -1)
         }
         ,{
-            new Point2d(0, 3)
+             new Point2d(0, 3)
             ,new Point2d(3, 4)
             ,new Point2d(4, 2)
             ,new Point2d(-2, 1)
             ,new Point2d(1, -1)
         }
         ,{
-            new Point2d(0, 2)
+             new Point2d(0, 2)
             ,new Point2d(6, 67)
             ,new Point2d(43, 71)
             ,new Point2d(39, 107)
             ,new Point2d(189, 140)
         }
-
     };
 
     public static void test() {
@@ -209,7 +208,7 @@ public class ClosestPoint2D {
         System.arraycopy(matrix[idx], 0, points, 0, points.length);
         Arrays.sort(points, SORT_BY_X);
 
-        double min = solver(points, new Point2d[points.length],  points.length);
+        double min = solver(points, new Point2d[points.length], 0, points.length);
         System.out.println(min);
 
         Point2d [] pQ = solver2(points, new Point2d[points.length], points.length);
