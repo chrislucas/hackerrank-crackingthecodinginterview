@@ -15,14 +15,26 @@
       <file leaf-file-name="ClosestPoint2D.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/xplore/solutions/ClosestPoint2D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-576">
-              <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+            <state relative-caret-position="144">
+              <caret line="198" column="27" lean-forward="false" selection-start-line="198" selection-start-column="27" selection-end-line="198" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1157#1158#0" expanded="true" />
                 <element signature="e#1197#1198#0" expanded="true" />
-                <element signature="e#6456#6457#0" expanded="true" />
-                <element signature="e#6478#6479#0" expanded="true" />
+                <element signature="e#6641#6642#0" expanded="true" />
+                <element signature="e#6663#6664#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="URI1295.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xplore/problems/URI1295.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="72" column="44" lean-forward="false" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,11 +58,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/xplore/solutions/Pointf2D.java" />
-        <option value="$PROJECT_DIR$/src/com/xplore/solutions/ClosestPoint2D.java" />
         <option value="$PROJECT_DIR$/raw/problems" />
         <option value="$PROJECT_DIR$/src/com/xplore/solutions/Point2f.java" />
-        <option value="$PROJECT_DIR$/src/com/xplore/problems/URI1295.java" />
         <option value="$PROJECT_DIR$/raw/links" />
+        <option value="$PROJECT_DIR$/src/com/xplore/problems/URI1295.java" />
+        <option value="$PROJECT_DIR$/src/com/xplore/solutions/ClosestPoint2D.java" />
       </list>
     </option>
   </component>
@@ -100,6 +112,13 @@
               <item name="FastClosestPoint2D" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="xplore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FastClosestPoint2D" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FastClosestPoint2D" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xplore" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FastClosestPoint2D" type="b2602c69:ProjectViewProjectNode" />
@@ -251,7 +270,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3936877" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3936877" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -292,7 +311,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/xplore/solutions/ClosestPoint2D.java</url>
-          <line>204</line>
+          <line>211</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
@@ -334,8 +353,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1157#1158#0" expanded="true" />
             <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#6456#6457#0" expanded="true" />
-            <element signature="e#6478#6479#0" expanded="true" />
+            <element signature="e#6641#6642#0" expanded="true" />
+            <element signature="e#6663#6664#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -372,8 +391,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1157#1158#0" expanded="true" />
             <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#6456#6457#0" expanded="true" />
-            <element signature="e#6478#6479#0" expanded="true" />
+            <element signature="e#6641#6642#0" expanded="true" />
+            <element signature="e#6663#6664#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -402,8 +421,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1157#1158#0" expanded="true" />
             <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#6456#6457#0" expanded="true" />
-            <element signature="e#6478#6479#0" expanded="true" />
+            <element signature="e#6641#6642#0" expanded="true" />
+            <element signature="e#6663#6664#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -432,8 +451,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1157#1158#0" expanded="true" />
             <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#6456#6457#0" expanded="true" />
-            <element signature="e#6478#6479#0" expanded="true" />
+            <element signature="e#6641#6642#0" expanded="true" />
+            <element signature="e#6663#6664#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -478,16 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xplore/problems/URI1295.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -515,16 +524,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xplore/problems/URI1295.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="72" column="44" lean-forward="false" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xplore/solutions/ClosestPoint2D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-576">
-          <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+        <state relative-caret-position="144">
+          <caret line="198" column="27" lean-forward="false" selection-start-line="198" selection-start-column="27" selection-end-line="198" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1157#1158#0" expanded="true" />
             <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#6456#6457#0" expanded="true" />
-            <element signature="e#6478#6479#0" expanded="true" />
+            <element signature="e#6641#6642#0" expanded="true" />
+            <element signature="e#6663#6664#0" expanded="true" />
           </folding>
         </state>
       </provider>

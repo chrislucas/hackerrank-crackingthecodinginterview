@@ -193,11 +193,18 @@ public class ClosestPoint2D {
             ,new Point2d(-2, 1)
             ,new Point2d(1, -1)
         }
+        ,{
+            new Point2d(0, 2)
+            ,new Point2d(6, 67)
+            ,new Point2d(43, 71)
+            ,new Point2d(39, 107)
+            ,new Point2d(189, 140)
+        }
 
     };
 
     public static void test() {
-        int idx = 3;
+        int idx = 4;
         Point2d[] points = new Point2d[matrix[idx].length];
         System.arraycopy(matrix[idx], 0, points, 0, points.length);
         Arrays.sort(points, SORT_BY_X);

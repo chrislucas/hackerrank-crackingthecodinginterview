@@ -69,7 +69,8 @@ public class URI1295 {
                     points[i] = new Point2f(a, b);
                 }
                 double answer = solver(points, in);
-                writer.printf("%s", answer == Double.POSITIVE_INFINITY
+
+                writer.printf("%s", answer > 10000
                         ? "INFINITY" : formatter.format(answer));
             }
         } catch (IOException ioex) {}
