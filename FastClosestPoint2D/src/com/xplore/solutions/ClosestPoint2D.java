@@ -8,7 +8,7 @@ public class ClosestPoint2D {
 
     public static class Point2d implements Comparable {
         int x, y;
-        public Point2d(int x, int y) {
+        Point2d(int x, int y) {
             this.x = x;
             this.y = y;
         }
@@ -18,17 +18,17 @@ public class ClosestPoint2D {
             return String.format("P(%d,%d)", x, y);
         }
 
-        public double euclidianDistance(Point2d that) {
+        double euclideanDistance(Point2d that) {
             int dx = diffX(that);
             int dy = diffY(that);;
             return Math.sqrt(dx*dx+dy*dy);
         }
 
-        public int diffX(Point2d that) {
+        int diffX(Point2d that) {
             return that.x - this.x;
         }
 
-        public int diffY(Point2d that) {
+        int diffY(Point2d that) {
             return that.y - this.y;
         }
 
@@ -47,11 +47,11 @@ public class ClosestPoint2D {
         }
     };
 
-    public static double brute(Point2d[] array, int lo, int hi) {
+    private static double brute(Point2d[] array, int lo, int hi) {
         double min = Double.POSITIVE_INFINITY;
         for (int i = lo; i < hi; i++) {
             for (int j = i+1; j<hi ; j++) {
-                double minAux = array[i].euclidianDistance(array[j]);
+                double minAux = array[i].euclideanDistance(array[j]);
                 if( minAux < min)
                     min = minAux;
             }
@@ -85,7 +85,7 @@ public class ClosestPoint2D {
         }
         for (int i = 0; i < k ; i++) {
             for (int j = i+1; j < k && (aux[j].y - aux[i].y) < currentMin  ; j++) {
-                double distance = aux[j].euclidianDistance(aux[i]);
+                double distance = aux[j].euclideanDistance(aux[i]);
                 if(distance < currentMin) {
                     currentMin = distance;
                 }
@@ -103,7 +103,7 @@ public class ClosestPoint2D {
             Point2d [] answer = new Point2d[2];
             for(int i=0; i<len; i++) {
                 for (int j = i+1; j < len ; j++) {
-                    double minDitance = points[i].euclidianDistance(points[j]);
+                    double minDitance = points[i].euclideanDistance(points[j]);
                     if(minDitance < distance) {
                         distance = minDitance;
                         answer[0] = points[i];
@@ -116,8 +116,8 @@ public class ClosestPoint2D {
         int mid = len/2;
         Point2d [] pA = solver2(points, aux, mid);
         Point2d [] pB = solver2(points, aux, len-mid);
-        double distanceA = pA[0].euclidianDistance(pA[1]);
-        double distanceB = pB[0].euclidianDistance(pB[1]);
+        double distanceA = pA[0].euclideanDistance(pA[1]);
+        double distanceB = pB[0].euclideanDistance(pB[1]);
         double minDistance;
         Point2d [] pQ = new Point2d[2];
         if(distanceA < distanceB) {
@@ -148,7 +148,7 @@ public class ClosestPoint2D {
         }
         for (int i = 0; i < k ; i++) {
             for (int j = i+1; j < k && aux[j].diffY(aux[i]) < minDistance; j++) {
-                double distance = aux[j].euclidianDistance(aux[i]);
+                double distance = aux[j].euclideanDistance(aux[i]);
                 if(distance < minDistance) {
                     minDistance = distance;
                     pQ[0] = aux[i];
@@ -212,7 +212,7 @@ public class ClosestPoint2D {
         System.out.println(min);
 
         Point2d [] pQ = solver2(points, new Point2d[points.length], points.length);
-        min = pQ[0].euclidianDistance(pQ[1]);
+        min = pQ[0].euclideanDistance(pQ[1]);
         System.out.printf("%s - %s =  distance %f", pQ[0], pQ[1], min);
     }
 
