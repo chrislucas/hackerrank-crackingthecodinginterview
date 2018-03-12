@@ -10,15 +10,26 @@ import java.util.StringTokenizer;
 /**
  * http://codeforces.com/contest/566/problem/D
  * http://codeforces.com/contest/566
+ *
+ *
+ * Tutorial
+ * http://codeforces.com/blog/entry/19518
+ * Resolver os problemas desse tutorial futuramente
+ *
+ * Solucao interessante
+ * https://github.com/yancouto/maratona-sua-mae/blob/master/Yan/codeforces/566D.cpp
+ *
  * */
 public class RestructuringCompany {
 
+    private static final BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+    private static final PrintWriter printWriter = new PrintWriter(new OutputStreamWriter(System.out), true);
 
-    public static int [] teams;
-    public static int [] sz;
-    public static int [] next;
+    private static int [] teams;
+    private static int [] sz;
+    private static int [] next;
 
-    public static void init(int size) {
+    private static void init(int size) {
         teams = new int[size+1];
         sz = new int[size+1];
         next = new int[size+1];
@@ -29,13 +40,11 @@ public class RestructuringCompany {
         }
     }
 
-    public static void union(int p, int q) {
-        int rootP = find(p);
-        int rootQ = find(q);
+    private static void unionByRank(int p, int q) {
+        int rootP = findWithPathCompression(p);
+        int rootQ = findWithPathCompression(q);
         if(rootP == rootQ)
             return;;
-        teams[rootP] = rootQ;
-                /*
         // weight compare
         if(sz[rootP] < sz[rootQ]) {
             teams[rootP] = rootQ;
@@ -45,24 +54,58 @@ public class RestructuringCompany {
             teams[rootQ] = rootP;
             sz[rootP] += sz[rootQ];
         }
-        */
     }
 
-    public static boolean hasSameRoot(int p, int q) {
+    private static void union(int p, int q) {
+        int rootP = find(p);
+        int rootQ = find(q);
+        if(rootP == rootQ)
+            return;;
+        teams[rootP] = rootQ;
+    }
+
+    private static boolean hasSameRoot(int p, int q) {
         return find(p) == find(q);
     }
 
-    public static int find(int p) {
+    private static int findWithPathCompression(int p) {
         if(p == teams[p])
             return p;
-        teams[p] = teams[teams[p]];     // path compression
+        teams[p] = teams[teams[p]];
+        return findWithPathCompression(teams[p]);
+    }
+
+    private static int find(int p) {
+        if(p == teams[p])
+            return p;
         return find(teams[p]);
+    }
+
+    // TLE
+    private static void solver1(int type, int x, int y) {
+        if(type == 1) {
+            union(x, y);
+        }
+        else if(type == 2) {
+            for (int j = x+1; j <= y;) {
+                union(j-1, j);
+                int tempRoot = next[j];
+                next[j] = next[y];
+                j = tempRoot;
+            }
+        }
+        else {
+            printWriter.printf("%s\n", hasSameRoot(x, y) ? "YES" : "NO");
+        }
+    }
+
+    private static void solver2(int type, int x, int y) {
+
     }
 
 
     public static void main(String[] args) {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        PrintWriter printWriter = new PrintWriter(new OutputStreamWriter(System.out), true);
+
         try {
             StringTokenizer tk = new StringTokenizer(bufferedReader.readLine(), " ");
             int n = Integer.parseInt(tk.nextToken());
@@ -73,21 +116,16 @@ public class RestructuringCompany {
                 int type = Integer.parseInt(tk.nextToken());
                 int x = Integer.parseInt(tk.nextToken());
                 int y = Integer.parseInt(tk.nextToken());
-                if(type == 1) {
-                    union(x, y);
-                }
-                else if(type == 2) {
-                    int i=x+1;
-                    while(i<=y) {
-                        union(i, x);
-                        int tempRoot = next[i];
-                        next[i] = next[y];
-                        i = tempRoot;
-                    }
-                }
-                else {
-                    printWriter.printf("%s\n", hasSameRoot(x, y) ? "YES" : "NO");
-                }
+
+                /**
+                 * type == tipo de operacao na estrutura union-findWithPathCompression
+                 * Tipo 1 e 2 sao unioes, tipo 3 verifica se o NÓ x possui o mesmo NÓ-PAI de y
+                 *
+                 * Union tipo 1 - muda o no pai de teams[y] para o no pai de teams[x
+                 * Union tipo 2 - muda o no pai dos teams[x+1, x+2, x+3 ... y] para o no pai de teams[x]
+                 *
+                 * */
+                solver1(type, x, y);
             }
         } catch (Exception e) {}
     }
