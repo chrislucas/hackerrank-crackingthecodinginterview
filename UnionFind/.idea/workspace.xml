@@ -15,78 +15,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <file leaf-file-name="links" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raw/links">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8887">
-              <caret line="411" column="88" lean-forward="true" selection-start-line="411" selection-start-column="88" selection-end-line="411" selection-end-column="88" />
-              <folding>
-                <marker date="1520889808278" expanded="true" signature="62002:62019" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="62002:62037" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="62002:62050" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="62002:62065" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="62100:64213" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="62113:64198" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="62167:62462" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="62186:62447" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="62249:62427" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="62289:62393" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="62310:62371" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="62512:62839" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="62531:62824" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="62626:62804" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="62666:62770" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="62687:62748" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="62890:63155" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="62909:63140" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="62942:63120" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="62982:63086" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="63003:63064" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="63198:63504" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="63217:63489" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="63291:63469" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="63331:63435" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="63352:63413" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="63555:63867" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="63574:63852" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="63654:63832" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="63694:63798" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="63715:63776" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="63919:64184" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="63938:64169" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="63971:64149" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="64011:64115" ph="..." />
-                <marker date="1520889808278" expanded="true" signature="64032:64093" ph="..." />
-              </folding>
+            <state relative-caret-position="592">
+              <caret line="37" column="75" lean-forward="false" selection-start-line="37" selection-start-column="75" selection-end-line="37" selection-end-column="75" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SegmentTree.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/problems/hackerearth/segmenttree/SegmentTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-              <folding>
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#652#653#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="segmenttree-problems" pinned="false" current-in-tab="false">
+      <file leaf-file-name="segmenttree-problems" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/raw/segmenttree-problems">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+            <state relative-caret-position="288">
+              <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SegmentTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/problems/hackerearth/segmenttree/SegmentTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1040">
+              <caret line="65" column="43" lean-forward="false" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
+              <folding>
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#922#923#0" expanded="true" />
+                <element signature="e#966#967#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+                <element signature="e#1046#1047#0" expanded="true" />
+                <element signature="e#1084#1085#0" expanded="true" />
+                <element signature="e#1129#1130#0" expanded="true" />
+                <element signature="e#1177#1178#0" expanded="true" />
+                <element signature="e#2151#2152#0" expanded="true" />
+                <element signature="e#2198#2199#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,14 +110,14 @@
         <option value="$PROJECT_DIR$/raw/links" />
         <option value="$PROJECT_DIR$/src/problems/hackerrank/any/graph/KruskalMST.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/raw/segmenttree-problems" />
         <option value="$PROJECT_DIR$/src/problems/hackerearth/segmenttree/SegmentTree.java" />
+        <option value="$PROJECT_DIR$/raw/segmenttree-problems" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="270" />
-    <option name="y" value="54" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="273" />
+    <option name="y" value="125" />
     <option name="width" value="1377" />
     <option name="height" value="835" />
   </component>
@@ -169,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,7 +146,7 @@
             <path>
               <item name="UnionFind" type="b2602c69:ProjectViewProjectNode" />
               <item name="UnionFind" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UnionFind" type="b2602c69:ProjectViewProjectNode" />
@@ -217,6 +183,13 @@
               <item name="UnionFind" type="b2602c69:ProjectViewProjectNode" />
               <item name="UnionFind" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UnionFind" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnionFind" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ds" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -227,9 +200,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.p566">
+  <component name="RunManager" selected="Application.SegmentTreeGeeks">
     <configuration name="ComponentsInGraph" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="problems.hackerrank.ComponentsInGraph" />
@@ -273,6 +247,20 @@
     <configuration name="MergingCommnuties" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="problems.hackerrank.MergingCommunities" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="UnionFind" />
+      <envs />
+    </configuration>
+    <configuration name="SegmentTreeGeeks" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="problems.hackerearth.segmenttree.SegmentTree" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -449,15 +437,16 @@
       <module name="UnionFind" />
       <envs />
     </configuration>
-    <list size="8">
+    <list size="9">
       <item index="0" class="java.lang.String" itemvalue="Application.wqu" />
       <item index="1" class="java.lang.String" itemvalue="Application.p566" />
-      <item index="2" class="java.lang.String" itemvalue="Application.cityflood" />
-      <item index="3" class="java.lang.String" itemvalue="Application.princeton-app" />
-      <item index="4" class="java.lang.String" itemvalue="Application.princeton-app-visual" />
-      <item index="5" class="java.lang.String" itemvalue="Application.princeton-app-stats" />
-      <item index="6" class="java.lang.String" itemvalue="Application.MergingCommnuties" />
-      <item index="7" class="java.lang.String" itemvalue="Application.ComponentsInGraph" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SegmentTreeGeeks" />
+      <item index="3" class="java.lang.String" itemvalue="Application.cityflood" />
+      <item index="4" class="java.lang.String" itemvalue="Application.princeton-app" />
+      <item index="5" class="java.lang.String" itemvalue="Application.princeton-app-visual" />
+      <item index="6" class="java.lang.String" itemvalue="Application.princeton-app-stats" />
+      <item index="7" class="java.lang.String" itemvalue="Application.MergingCommnuties" />
+      <item index="8" class="java.lang.String" itemvalue="Application.ComponentsInGraph" />
     </list>
   </component>
   <component name="SbtLocalSettings">
@@ -482,7 +471,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
+    <frame x="273" y="125" width="1377" height="835" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -499,7 +488,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19062833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19894499" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -511,7 +500,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -634,13 +623,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/problems/hackerearth/CountFriends.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="157" lean-forward="false" selection-start-line="3" selection-start-column="157" selection-end-line="3" selection-end-column="157" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/problems/hackerearth/RamansProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -660,7 +642,7 @@
         <state relative-caret-position="986">
           <caret line="58" column="56" lean-forward="true" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -670,7 +652,7 @@
         <state relative-caret-position="122">
           <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -893,8 +875,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/problems/hackerrank/KunduAndTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="136" lean-forward="false" selection-start-line="9" selection-start-column="136" selection-end-line="9" selection-end-column="136" />
+        <state relative-caret-position="128">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -910,7 +892,7 @@
         <state relative-caret-position="416">
           <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -920,7 +902,7 @@
         <state relative-caret-position="16">
           <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="148" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -934,8 +916,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/problems/codeforces/RestructuringCompany.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="96" column="14" lean-forward="true" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
+        <state relative-caret-position="304">
+          <caret line="19" column="83" lean-forward="false" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -946,7 +928,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xplore/ds/WeightQuickUnion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raw/links">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="37" column="75" lean-forward="false" selection-start-line="37" selection-start-column="75" selection-end-line="37" selection-end-column="75" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8887">
+          <caret line="411" column="88" lean-forward="true" selection-start-line="411" selection-start-column="88" selection-end-line="411" selection-end-column="88" />
         </state>
       </provider>
     </entry>
@@ -958,91 +961,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xplore/ds/WeightQuickUnion.java">
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="e#367#368#0" expanded="false" />
-            <element signature="e#417#418#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="308">
+          <caret line="291" column="25" lean-forward="false" selection-start-line="291" selection-start-column="25" selection-end-line="291" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/raw/links">
+    <entry file="file://$PROJECT_DIR$/src/problems/hackerearth/segmenttree/SegmentTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="36" column="89" lean-forward="false" selection-start-line="36" selection-start-column="89" selection-end-line="36" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8887">
-          <caret line="411" column="88" lean-forward="true" selection-start-line="411" selection-start-column="88" selection-end-line="411" selection-end-column="88" />
+        <state relative-caret-position="1040">
+          <caret line="65" column="43" lean-forward="false" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
           <folding>
-            <marker date="1520889808278" expanded="true" signature="62002:62019" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="62002:62037" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="62002:62050" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="62002:62065" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="62100:64213" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="62113:64198" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="62167:62462" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="62186:62447" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="62249:62427" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="62289:62393" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="62310:62371" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="62512:62839" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="62531:62824" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="62626:62804" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="62666:62770" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="62687:62748" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="62890:63155" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="62909:63140" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="62942:63120" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="62982:63086" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="63003:63064" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="63198:63504" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="63217:63489" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="63291:63469" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="63331:63435" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="63352:63413" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="63555:63867" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="63574:63852" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="63654:63832" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="63694:63798" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="63715:63776" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="63919:64184" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="63938:64169" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="63971:64149" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="64011:64115" ph="..." />
-            <marker date="1520889808278" expanded="true" signature="64032:64093" ph="..." />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#2151#2152#0" expanded="true" />
+            <element signature="e#2198#2199#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/raw/segmenttree-problems">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        <state relative-caret-position="288">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/problems/hackerearth/segmenttree/SegmentTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-          <folding>
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
